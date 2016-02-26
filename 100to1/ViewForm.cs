@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace _100to1
 {
-    public partial class AdminForm : Form
+    public partial class ViewForm : Form
     {
-        public AdminForm()
+        public ViewForm()
         {
             InitializeComponent();
-            ViewForm vf = new ViewForm();
-            vf.Show();
         }
     }
 }
