@@ -28,9 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // ViewForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1264, 985);
+            this.ControlBox = false;
+            this.MaximumSize = new System.Drawing.Size(1280, 1024);
+            this.MinimumSize = new System.Drawing.Size(1280, 1024);
+            this.Name = "ViewForm";
             this.Text = "ViewForm";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
