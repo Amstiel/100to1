@@ -5,6 +5,7 @@
         /// <summary>
         /// Required designer variable.
         /// </summary>
+        private DataBase Base = new DataBase();
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
@@ -29,9 +30,8 @@
         private void InitializeComponent()
         {
             this.SuspendLayout();
-            // 
-            // ViewForm
-            // 
+
+            Base.loadBase(@"C:\Works\GH\100to1\100to1\test.txt"); 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 1024);
