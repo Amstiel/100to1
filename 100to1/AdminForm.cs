@@ -21,7 +21,7 @@ namespace _100to1
             InitializeComponent();
             ViewForm vf = new ViewForm();
             vf.Show();
-            tbCreate(6);
+            //tbCreate(6);
         }
 
         public void tbCreate(int num)
@@ -33,10 +33,19 @@ namespace _100to1
                 tbArray[i].Width = tbWdith;
                 tbArray[i].Height = tbHeight;
                 tbArray[i].Top = tbPadding * i + tbPadding + tbHeight * i;
-                tbArray[i].Left = AdminForm.ActiveForm.Width / 2 - tbWdith/2;
+                tbArray[i].Left = AdminForm.ActiveForm.Width / 2 - tbWdith;
                 tbArray[i].Parent = this;
             }
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
