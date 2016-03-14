@@ -5,6 +5,7 @@
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
+        private DataBase Base = new DataBase();
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>

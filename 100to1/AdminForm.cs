@@ -21,6 +21,8 @@ namespace _100to1
             InitializeComponent();
             ViewForm vf = new ViewForm();
             vf.Show();
+            Base.loadBase(@"C:\Works\test.txt");
+            answer1TextBox.Text = Base.questions[0].ToString();
             //tbCreate(6);
         }
 

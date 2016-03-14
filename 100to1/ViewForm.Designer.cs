@@ -34,12 +34,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(104)))), ((int)(((byte)(239)))));
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(109)))), ((int)(((byte)(239)))));
             this.pictureBox1.BackgroundImage = global::_100to1.Properties.Resources.viewLogo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(549, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(546, 25);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(205, 74);
+            this.pictureBox1.Size = new System.Drawing.Size(244, 61);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
