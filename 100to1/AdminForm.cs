@@ -12,32 +12,38 @@ namespace _100to1
 {
     public partial class AdminForm : Form
     {
-        TextBox[] tbArray;
-        int tbWdith = 400;
-        int tbHeight = 30;
-        int tbPadding = 15;
+        public string basePath = @"C:\Works\test.txt"; // Пусть к базе
+        public ViewForm vf;
         public AdminForm()
         {
             InitializeComponent();
-            ViewForm vf = new ViewForm();
+            vf = new ViewForm();
             vf.Show();
-            Base.loadBase(@"C:\Works\test.txt");
-            answer1TextBox.Text = Base.questions[0].ToString();
-            //tbCreate(6);
+            Base.loadBase(basePath);
+            comboBoxInit();
+            questionInit(0);
         }
 
-        public void tbCreate(int num)
+        // Заполнение комбобокса
+        public void comboBoxInit()
         {
-            tbArray = new TextBox[num];
-            for (int i = 0; i < num; i++)
+            for(int i = 0; i < Base.questions.Count; i++)
             {
-                tbArray[i] = new TextBox();
-                tbArray[i].Width = tbWdith;
-                tbArray[i].Height = tbHeight;
-                tbArray[i].Top = tbPadding * i + tbPadding + tbHeight * i;
-                tbArray[i].Left = AdminForm.ActiveForm.Width / 2 - tbWdith;
-                tbArray[i].Parent = this;
+                questionNameComboBox.Items.Add(Base.questions[i]);
             }
+            questionNameComboBox.SelectedIndex = 0; // Убрать эту хуйню при генерации вопроса, потом. =)
+        }
+
+
+        // При вызове этой функции - бежим по массиву, связанному с выбранным вопросом и заполняем ответы
+        public void questionInit(int id)
+        {
+            answer1TextBox.Text = Base.answers[0][id].ToString(); // Прости за эту стену текста, но мне было лень делать массив)
+            answer2TextBox.Text = Base.answers[1][id].ToString(); // Да и всего 6 строчек, не сильно и говнокод
+            answer3TextBox.Text = Base.answers[2][id].ToString();
+            answer4TextBox.Text = Base.answers[0][id].ToString();
+            answer5TextBox.Text = Base.answers[1][id].ToString();
+            answer6TextBox.Text = Base.answers[2][id].ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -48,6 +54,32 @@ namespace _100to1
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void AdminForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fullScreenRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            if (fullScreenRadioButton.Checked)
+            {
+                vf.FormBorderStyle = FormBorderStyle.None;
+            }
+        }
+
+        private void notFullScreenRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            if (notFullScreenRadioButton.Checked)
+            {
+                vf.FormBorderStyle = FormBorderStyle.Sizable;
+            }
+        }
+
+        private void questionNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            questionInit(questionNameComboBox.SelectedIndex);
         }
     }
 }

@@ -58,46 +58,51 @@
             this.secondTeamMistakeThree = new System.Windows.Forms.CheckBox();
             this.firstTeamMistakesLabel = new System.Windows.Forms.Label();
             this.secondTeamMistakesLabel = new System.Windows.Forms.Label();
+            this.questionNameComboBox = new System.Windows.Forms.ComboBox();
+            this.questionNameLabel = new System.Windows.Forms.Label();
+            this.fullScreenRadioButton = new System.Windows.Forms.RadioButton();
+            this.notFullScreenRadioButton = new System.Windows.Forms.RadioButton();
+            this.fullscreenOrNotLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // answer1TextBox
             // 
-            this.answer1TextBox.Location = new System.Drawing.Point(335, 73);
+            this.answer1TextBox.Location = new System.Drawing.Point(338, 146);
             this.answer1TextBox.Name = "answer1TextBox";
             this.answer1TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer1TextBox.TabIndex = 0;
             // 
             // answer2TextBox
             // 
-            this.answer2TextBox.Location = new System.Drawing.Point(335, 112);
+            this.answer2TextBox.Location = new System.Drawing.Point(338, 185);
             this.answer2TextBox.Name = "answer2TextBox";
             this.answer2TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer2TextBox.TabIndex = 1;
             // 
             // answer3TextBox
             // 
-            this.answer3TextBox.Location = new System.Drawing.Point(335, 151);
+            this.answer3TextBox.Location = new System.Drawing.Point(338, 224);
             this.answer3TextBox.Name = "answer3TextBox";
             this.answer3TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer3TextBox.TabIndex = 2;
             // 
             // answer4TextBox
             // 
-            this.answer4TextBox.Location = new System.Drawing.Point(335, 190);
+            this.answer4TextBox.Location = new System.Drawing.Point(338, 263);
             this.answer4TextBox.Name = "answer4TextBox";
             this.answer4TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer4TextBox.TabIndex = 3;
             // 
             // answer5TextBox
             // 
-            this.answer5TextBox.Location = new System.Drawing.Point(335, 229);
+            this.answer5TextBox.Location = new System.Drawing.Point(338, 302);
             this.answer5TextBox.Name = "answer5TextBox";
             this.answer5TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer5TextBox.TabIndex = 4;
             // 
             // answer6TextBox
             // 
-            this.answer6TextBox.Location = new System.Drawing.Point(335, 268);
+            this.answer6TextBox.Location = new System.Drawing.Point(338, 341);
             this.answer6TextBox.Name = "answer6TextBox";
             this.answer6TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer6TextBox.TabIndex = 5;
@@ -105,7 +110,7 @@
             // answer1Label
             // 
             this.answer1Label.AutoSize = true;
-            this.answer1Label.Location = new System.Drawing.Point(445, 57);
+            this.answer1Label.Location = new System.Drawing.Point(451, 130);
             this.answer1Label.Name = "answer1Label";
             this.answer1Label.Size = new System.Drawing.Size(78, 13);
             this.answer1Label.TabIndex = 6;
@@ -115,7 +120,7 @@
             // answer2Label
             // 
             this.answer2Label.AutoSize = true;
-            this.answer2Label.Location = new System.Drawing.Point(445, 96);
+            this.answer2Label.Location = new System.Drawing.Point(448, 169);
             this.answer2Label.Name = "answer2Label";
             this.answer2Label.Size = new System.Drawing.Size(74, 13);
             this.answer2Label.TabIndex = 7;
@@ -124,7 +129,7 @@
             // answer3Label
             // 
             this.answer3Label.AutoSize = true;
-            this.answer3Label.Location = new System.Drawing.Point(447, 135);
+            this.answer3Label.Location = new System.Drawing.Point(450, 208);
             this.answer3Label.Name = "answer3Label";
             this.answer3Label.Size = new System.Drawing.Size(74, 13);
             this.answer3Label.TabIndex = 8;
@@ -133,7 +138,7 @@
             // answer4Label
             // 
             this.answer4Label.AutoSize = true;
-            this.answer4Label.Location = new System.Drawing.Point(445, 174);
+            this.answer4Label.Location = new System.Drawing.Point(448, 247);
             this.answer4Label.Name = "answer4Label";
             this.answer4Label.Size = new System.Drawing.Size(89, 13);
             this.answer4Label.TabIndex = 9;
@@ -142,7 +147,7 @@
             // answer5Label
             // 
             this.answer5Label.AutoSize = true;
-            this.answer5Label.Location = new System.Drawing.Point(448, 213);
+            this.answer5Label.Location = new System.Drawing.Point(451, 286);
             this.answer5Label.Name = "answer5Label";
             this.answer5Label.Size = new System.Drawing.Size(71, 13);
             this.answer5Label.TabIndex = 10;
@@ -151,7 +156,7 @@
             // answer6Label
             // 
             this.answer6Label.AutoSize = true;
-            this.answer6Label.Location = new System.Drawing.Point(448, 252);
+            this.answer6Label.Location = new System.Drawing.Point(451, 325);
             this.answer6Label.Name = "answer6Label";
             this.answer6Label.Size = new System.Drawing.Size(76, 13);
             this.answer6Label.TabIndex = 11;
@@ -225,7 +230,7 @@
             // 
             // confirmBtn
             // 
-            this.confirmBtn.Location = new System.Drawing.Point(375, 371);
+            this.confirmBtn.Location = new System.Drawing.Point(370, 442);
             this.confirmBtn.Name = "confirmBtn";
             this.confirmBtn.Size = new System.Drawing.Size(216, 70);
             this.confirmBtn.TabIndex = 20;
@@ -311,11 +316,68 @@
             this.secondTeamMistakesLabel.TabIndex = 28;
             this.secondTeamMistakesLabel.Text = "Ошибки второй команды";
             // 
+            // questionNameComboBox
+            // 
+            this.questionNameComboBox.FormattingEnabled = true;
+            this.questionNameComboBox.Location = new System.Drawing.Point(226, 48);
+            this.questionNameComboBox.Name = "questionNameComboBox";
+            this.questionNameComboBox.Size = new System.Drawing.Size(523, 21);
+            this.questionNameComboBox.TabIndex = 29;
+            this.questionNameComboBox.SelectedIndexChanged += new System.EventHandler(this.questionNameComboBox_SelectedIndexChanged);
+            // 
+            // questionNameLabel
+            // 
+            this.questionNameLabel.AutoSize = true;
+            this.questionNameLabel.Location = new System.Drawing.Point(436, 32);
+            this.questionNameLabel.Name = "questionNameLabel";
+            this.questionNameLabel.Size = new System.Drawing.Size(91, 13);
+            this.questionNameLabel.TabIndex = 30;
+            this.questionNameLabel.Text = "Текущий вопрос";
+            // 
+            // fullScreenRadioButton
+            // 
+            this.fullScreenRadioButton.AutoSize = true;
+            this.fullScreenRadioButton.Location = new System.Drawing.Point(762, 496);
+            this.fullScreenRadioButton.Name = "fullScreenRadioButton";
+            this.fullScreenRadioButton.Size = new System.Drawing.Size(98, 17);
+            this.fullScreenRadioButton.TabIndex = 31;
+            this.fullScreenRadioButton.TabStop = true;
+            this.fullScreenRadioButton.Text = "Полный экран";
+            this.fullScreenRadioButton.UseVisualStyleBackColor = true;
+            this.fullScreenRadioButton.CheckedChanged += new System.EventHandler(this.fullScreenRadioButton_CheckedChanged);
+            // 
+            // notFullScreenRadioButton
+            // 
+            this.notFullScreenRadioButton.AutoSize = true;
+            this.notFullScreenRadioButton.Checked = true;
+            this.notFullScreenRadioButton.Location = new System.Drawing.Point(762, 519);
+            this.notFullScreenRadioButton.Name = "notFullScreenRadioButton";
+            this.notFullScreenRadioButton.Size = new System.Drawing.Size(110, 17);
+            this.notFullScreenRadioButton.TabIndex = 32;
+            this.notFullScreenRadioButton.TabStop = true;
+            this.notFullScreenRadioButton.Text = "Неполный экран";
+            this.notFullScreenRadioButton.UseVisualStyleBackColor = true;
+            this.notFullScreenRadioButton.CheckedChanged += new System.EventHandler(this.notFullScreenRadioButton_CheckedChanged);
+            // 
+            // fullscreenOrNotLabel
+            // 
+            this.fullscreenOrNotLabel.AutoSize = true;
+            this.fullscreenOrNotLabel.Location = new System.Drawing.Point(759, 480);
+            this.fullscreenOrNotLabel.Name = "fullscreenOrNotLabel";
+            this.fullscreenOrNotLabel.Size = new System.Drawing.Size(81, 13);
+            this.fullscreenOrNotLabel.TabIndex = 33;
+            this.fullscreenOrNotLabel.Text = "Вид окна игры";
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 647);
+            this.Controls.Add(this.fullscreenOrNotLabel);
+            this.Controls.Add(this.notFullScreenRadioButton);
+            this.Controls.Add(this.fullScreenRadioButton);
+            this.Controls.Add(this.questionNameLabel);
+            this.Controls.Add(this.questionNameComboBox);
             this.Controls.Add(this.secondTeamMistakesLabel);
             this.Controls.Add(this.firstTeamMistakesLabel);
             this.Controls.Add(this.secondTeamMistakeThree);
@@ -347,6 +409,7 @@
             this.Controls.Add(this.answer1TextBox);
             this.Name = "AdminForm";
             this.Text = "AdminForm";
+            this.Load += new System.EventHandler(this.AdminForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -383,6 +446,11 @@
         private System.Windows.Forms.CheckBox secondTeamMistakeThree;
         private System.Windows.Forms.Label firstTeamMistakesLabel;
         private System.Windows.Forms.Label secondTeamMistakesLabel;
+        private System.Windows.Forms.ComboBox questionNameComboBox;
+        private System.Windows.Forms.Label questionNameLabel;
+        private System.Windows.Forms.RadioButton fullScreenRadioButton;
+        private System.Windows.Forms.RadioButton notFullScreenRadioButton;
+        private System.Windows.Forms.Label fullscreenOrNotLabel;
     }
 }
 

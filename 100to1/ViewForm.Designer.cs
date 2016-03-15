@@ -50,13 +50,13 @@
             this.BackgroundImage = global::_100to1.Properties.Resources.viewBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 1024);
-            this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximumSize = new System.Drawing.Size(1280, 1024);
             this.MinimumSize = new System.Drawing.Size(1280, 1024);
             this.Name = "ViewForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ViewForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
