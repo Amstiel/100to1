@@ -89,6 +89,9 @@
             // 
             // logoPicture
             // 
+            this.logoPicture.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.logoPicture.BackColor = System.Drawing.Color.Transparent;
             this.logoPicture.BackgroundImage = global::_100to1.Properties.Resources.viewLogo;
             this.logoPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -100,6 +103,9 @@
             // 
             // teamOneNameLabel
             // 
+            this.teamOneNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneNameLabel.AutoSize = true;
             this.teamOneNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.teamOneNameLabel.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,6 +118,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.label1.Image = global::_100to1.Properties.Resources.ScoresBackground;
@@ -124,6 +133,9 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.label2.Image = global::_100to1.Properties.Resources.ScoresBackground;
@@ -136,6 +148,9 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.label3.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -148,6 +163,9 @@
             // 
             // teamOneMistakeOne
             // 
+            this.teamOneMistakeOne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeOne.BackColor = System.Drawing.Color.Transparent;
             this.teamOneMistakeOne.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
             this.teamOneMistakeOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -160,6 +178,9 @@
             // 
             // teamOneMistakeTwo
             // 
+            this.teamOneMistakeTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeTwo.BackColor = System.Drawing.Color.Transparent;
             this.teamOneMistakeTwo.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
             this.teamOneMistakeTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -172,6 +193,9 @@
             // 
             // teamOneMistakeThree
             // 
+            this.teamOneMistakeThree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeThree.BackColor = System.Drawing.Color.Transparent;
             this.teamOneMistakeThree.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
             this.teamOneMistakeThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -184,6 +208,9 @@
             // 
             // teamTwoMistakeOne
             // 
+            this.teamTwoMistakeOne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeOne.BackColor = System.Drawing.Color.Transparent;
             this.teamTwoMistakeOne.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
             this.teamTwoMistakeOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -196,6 +223,9 @@
             // 
             // teamTwoMistakeTwo
             // 
+            this.teamTwoMistakeTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeTwo.BackColor = System.Drawing.Color.Transparent;
             this.teamTwoMistakeTwo.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
             this.teamTwoMistakeTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -208,6 +238,9 @@
             // 
             // teamTwoMistakeThree
             // 
+            this.teamTwoMistakeThree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeThree.BackColor = System.Drawing.Color.Transparent;
             this.teamTwoMistakeThree.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
             this.teamTwoMistakeThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -220,6 +253,9 @@
             // 
             // teamOneMistakeOneTrue
             // 
+            this.teamOneMistakeOneTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeOneTrue.BackColor = System.Drawing.Color.Transparent;
             this.teamOneMistakeOneTrue.BackgroundImage = global::_100to1.Properties.Resources.Mistake_True;
             this.teamOneMistakeOneTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -233,6 +269,9 @@
             // 
             // teamOneMistakeTwoTrue
             // 
+            this.teamOneMistakeTwoTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeTwoTrue.BackColor = System.Drawing.Color.Transparent;
             this.teamOneMistakeTwoTrue.BackgroundImage = global::_100to1.Properties.Resources.Mistake_True;
             this.teamOneMistakeTwoTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -246,6 +285,9 @@
             // 
             // teamOneMistakeThreeTrue
             // 
+            this.teamOneMistakeThreeTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeThreeTrue.BackColor = System.Drawing.Color.Transparent;
             this.teamOneMistakeThreeTrue.BackgroundImage = global::_100to1.Properties.Resources.Mistake_True;
             this.teamOneMistakeThreeTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -259,6 +301,9 @@
             // 
             // teamTwoMistakeOneTrue
             // 
+            this.teamTwoMistakeOneTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeOneTrue.BackColor = System.Drawing.Color.Transparent;
             this.teamTwoMistakeOneTrue.BackgroundImage = global::_100to1.Properties.Resources.Mistake_True;
             this.teamTwoMistakeOneTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -272,6 +317,9 @@
             // 
             // teamTwoMistakeTwoTrue
             // 
+            this.teamTwoMistakeTwoTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeTwoTrue.BackColor = System.Drawing.Color.Transparent;
             this.teamTwoMistakeTwoTrue.BackgroundImage = global::_100to1.Properties.Resources.Mistake_True;
             this.teamTwoMistakeTwoTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -285,6 +333,9 @@
             // 
             // teamTwoMistakeThreeTrue
             // 
+            this.teamTwoMistakeThreeTrue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeThreeTrue.BackColor = System.Drawing.Color.Transparent;
             this.teamTwoMistakeThreeTrue.BackgroundImage = global::_100to1.Properties.Resources.Mistake_True;
             this.teamTwoMistakeThreeTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -298,6 +349,9 @@
             // 
             // answerSixPB
             // 
+            this.answerSixPB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerSixPB.BackColor = System.Drawing.Color.Transparent;
             this.answerSixPB.BackgroundImage = global::_100to1.Properties.Resources.AnswerSix;
             this.answerSixPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -310,6 +364,9 @@
             // 
             // answerFivePB
             // 
+            this.answerFivePB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFivePB.BackColor = System.Drawing.Color.Transparent;
             this.answerFivePB.BackgroundImage = global::_100to1.Properties.Resources.AnswerFive;
             this.answerFivePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -322,6 +379,9 @@
             // 
             // answerFourPB
             // 
+            this.answerFourPB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFourPB.BackColor = System.Drawing.Color.Transparent;
             this.answerFourPB.BackgroundImage = global::_100to1.Properties.Resources.AnswerFour;
             this.answerFourPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -334,6 +394,9 @@
             // 
             // answerThreePB
             // 
+            this.answerThreePB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerThreePB.BackColor = System.Drawing.Color.Transparent;
             this.answerThreePB.BackgroundImage = global::_100to1.Properties.Resources.AnswerThree;
             this.answerThreePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -346,6 +409,9 @@
             // 
             // answerTwoPB
             // 
+            this.answerTwoPB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerTwoPB.BackColor = System.Drawing.Color.Transparent;
             this.answerTwoPB.BackgroundImage = global::_100to1.Properties.Resources.AnswerTwo;
             this.answerTwoPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -358,6 +424,9 @@
             // 
             // answerOnePB
             // 
+            this.answerOnePB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerOnePB.BackColor = System.Drawing.Color.Transparent;
             this.answerOnePB.BackgroundImage = global::_100to1.Properties.Resources.AnswerOne;
             this.answerOnePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -370,6 +439,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.label4.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -382,6 +452,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(49)))));
             this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -394,6 +465,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
             this.label6.Font = new System.Drawing.Font("Panton ExtraBold", 20F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -406,6 +478,9 @@
             // 
             // answerOne
             // 
+            this.answerOne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -418,6 +493,9 @@
             // 
             // pointsOne
             // 
+            this.pointsOne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -430,6 +508,9 @@
             // 
             // answerTwo
             // 
+            this.answerTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -442,6 +523,9 @@
             // 
             // pointsTwo
             // 
+            this.pointsTwo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -454,6 +538,9 @@
             // 
             // answerThree
             // 
+            this.answerThree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -466,6 +553,9 @@
             // 
             // pointsThree
             // 
+            this.pointsThree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -478,6 +568,9 @@
             // 
             // answerFour
             // 
+            this.answerFour.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -490,6 +583,9 @@
             // 
             // pointsFour
             // 
+            this.pointsFour.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -502,6 +598,9 @@
             // 
             // answerFive
             // 
+            this.answerFive.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -514,6 +613,9 @@
             // 
             // pointsFive
             // 
+            this.pointsFive.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -526,6 +628,9 @@
             // 
             // answerSix
             // 
+            this.answerSix.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.answerSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -538,6 +643,9 @@
             // 
             // pointsSix
             // 
+            this.pointsSix.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
