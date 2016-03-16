@@ -96,6 +96,33 @@
   <ItemGroup>
     <None Include="Resources\viewLogo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScoresBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mistake_False.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mistake_True.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnswerOne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnswerFive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnswerFour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnswerSix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnswerThree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AnswerTwo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
