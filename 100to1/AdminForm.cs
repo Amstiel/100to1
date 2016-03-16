@@ -129,6 +129,11 @@ namespace _100to1
         {
             int id = Convert.ToInt32(((CheckBox)sender).Tag);
             ((PictureBox)vf.AnswersPB[id]).Visible = (((CheckBox)sender).Checked);
+            if (!((CheckBox)sender).Checked)
+            {
+                SoundPlayer a = new SoundPlayer(@"..\..\audio\line_open.wav");
+                a.Play();
+            }
         }
     }
 }
