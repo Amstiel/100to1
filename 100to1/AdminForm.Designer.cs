@@ -269,7 +269,7 @@
             // 
             // confirmBtn
             // 
-            this.confirmBtn.Location = new System.Drawing.Point(74, 519);
+            this.confirmBtn.Location = new System.Drawing.Point(311, 519);
             this.confirmBtn.Name = "confirmBtn";
             this.confirmBtn.Size = new System.Drawing.Size(216, 70);
             this.confirmBtn.TabIndex = 20;
@@ -283,8 +283,11 @@
             this.firstTeamMistakeOne.Name = "firstTeamMistakeOne";
             this.firstTeamMistakeOne.Size = new System.Drawing.Size(75, 17);
             this.firstTeamMistakeOne.TabIndex = 21;
+            this.firstTeamMistakeOne.Tag = "0";
             this.firstTeamMistakeOne.Text = "Ошибка 1";
             this.firstTeamMistakeOne.UseVisualStyleBackColor = true;
+            this.firstTeamMistakeOne.CheckedChanged += new System.EventHandler(this.mistake_CheckedChanged);
+            this.firstTeamMistakeOne.MouseClick += new System.Windows.Forms.MouseEventHandler(this.firstTeamMistakeOne_MouseClick);
             // 
             // firstTeamMistakeTwo
             // 
@@ -293,8 +296,10 @@
             this.firstTeamMistakeTwo.Name = "firstTeamMistakeTwo";
             this.firstTeamMistakeTwo.Size = new System.Drawing.Size(75, 17);
             this.firstTeamMistakeTwo.TabIndex = 22;
+            this.firstTeamMistakeTwo.Tag = "1";
             this.firstTeamMistakeTwo.Text = "Ошибка 2";
             this.firstTeamMistakeTwo.UseVisualStyleBackColor = true;
+            this.firstTeamMistakeTwo.CheckedChanged += new System.EventHandler(this.mistake_CheckedChanged);
             // 
             // firstTeamMistakeThree
             // 
@@ -303,8 +308,10 @@
             this.firstTeamMistakeThree.Name = "firstTeamMistakeThree";
             this.firstTeamMistakeThree.Size = new System.Drawing.Size(75, 17);
             this.firstTeamMistakeThree.TabIndex = 23;
+            this.firstTeamMistakeThree.Tag = "2";
             this.firstTeamMistakeThree.Text = "Ошибка 3";
             this.firstTeamMistakeThree.UseVisualStyleBackColor = true;
+            this.firstTeamMistakeThree.CheckedChanged += new System.EventHandler(this.mistake_CheckedChanged);
             // 
             // secondTeamMistakeOne
             // 
@@ -313,8 +320,10 @@
             this.secondTeamMistakeOne.Name = "secondTeamMistakeOne";
             this.secondTeamMistakeOne.Size = new System.Drawing.Size(75, 17);
             this.secondTeamMistakeOne.TabIndex = 24;
+            this.secondTeamMistakeOne.Tag = "3";
             this.secondTeamMistakeOne.Text = "Ошибка 1";
             this.secondTeamMistakeOne.UseVisualStyleBackColor = true;
+            this.secondTeamMistakeOne.CheckedChanged += new System.EventHandler(this.mistake_CheckedChanged);
             // 
             // secondTeamMistakeTwo
             // 
@@ -323,8 +332,10 @@
             this.secondTeamMistakeTwo.Name = "secondTeamMistakeTwo";
             this.secondTeamMistakeTwo.Size = new System.Drawing.Size(75, 17);
             this.secondTeamMistakeTwo.TabIndex = 25;
+            this.secondTeamMistakeTwo.Tag = "4";
             this.secondTeamMistakeTwo.Text = "Ошибка 2";
             this.secondTeamMistakeTwo.UseVisualStyleBackColor = true;
+            this.secondTeamMistakeTwo.CheckedChanged += new System.EventHandler(this.mistake_CheckedChanged);
             // 
             // secondTeamMistakeThree
             // 
@@ -333,9 +344,10 @@
             this.secondTeamMistakeThree.Name = "secondTeamMistakeThree";
             this.secondTeamMistakeThree.Size = new System.Drawing.Size(75, 17);
             this.secondTeamMistakeThree.TabIndex = 26;
+            this.secondTeamMistakeThree.Tag = "5";
             this.secondTeamMistakeThree.Text = "Ошибка 3";
             this.secondTeamMistakeThree.UseVisualStyleBackColor = true;
-            this.secondTeamMistakeThree.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
+            this.secondTeamMistakeThree.CheckedChanged += new System.EventHandler(this.mistake_CheckedChanged);
             // 
             // firstTeamMistakesLabel
             // 

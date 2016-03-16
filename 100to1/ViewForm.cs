@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,26 @@ namespace _100to1
 {
     public partial class ViewForm : Form
     {
+        public ArrayList teamsMistakes = new ArrayList(); //Костыль, но ничего лучше я не придумал)
+        public ArrayList teamTwoMistakes = new ArrayList();
+
         public ViewForm()
         {
             InitializeComponent();
+            mistakesInit();
+            
+        }
+
+        public void mistakesInit()
+        {
+            teamsMistakes.Add(teamOneMistakeOneTrue);
+            teamsMistakes.Add(teamOneMistakeTwoTrue);
+            teamsMistakes.Add(teamOneMistakeThreeTrue);
+
+            teamsMistakes.Add(teamTwoMistakeOneTrue);
+            teamsMistakes.Add(teamTwoMistakeTwoTrue);
+            teamsMistakes.Add(teamTwoMistakeThreeTrue);
+
         }
 
         private void ViewForm_Load(object sender, EventArgs e)

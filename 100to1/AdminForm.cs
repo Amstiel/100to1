@@ -103,5 +103,18 @@ namespace _100to1
                 //Добавить функцию отправки данных на ViewForm
             }
         }
+
+        private void firstTeamMistakeOne_MouseClick(object sender, MouseEventArgs e)
+        {
+            
+            
+        }
+        
+
+        private void mistake_CheckedChanged(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(((CheckBox)sender).Tag);
+            ((PictureBox)vf.teamsMistakes[id]).Visible = (((CheckBox)sender).Checked);
+        }
     }
 }
