@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Media;
 using System.Windows.Forms;
 
 namespace _100to1
@@ -117,6 +118,11 @@ namespace _100to1
         {
             int id = Convert.ToInt32(((CheckBox)sender).Tag);
             ((PictureBox)vf.teamsMistakes[id]).Visible = (((CheckBox)sender).Checked);
+            if (((CheckBox)sender).Checked)
+            {
+                SoundPlayer a = new SoundPlayer(@"..\..\audio\wrong.wav");
+                a.Play();
+            }
         }
 
         private void answerCheckBox_CheckedChanged(object sender, EventArgs e)

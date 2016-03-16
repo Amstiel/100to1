@@ -95,7 +95,7 @@
             this.logoPicture.BackColor = System.Drawing.Color.Transparent;
             this.logoPicture.BackgroundImage = global::_100to1.Properties.Resources.viewLogo;
             this.logoPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.logoPicture.Location = new System.Drawing.Point(522, 28);
+            this.logoPicture.Location = new System.Drawing.Point(501, 26);
             this.logoPicture.Name = "logoPicture";
             this.logoPicture.Size = new System.Drawing.Size(278, 64);
             this.logoPicture.TabIndex = 0;
@@ -110,7 +110,7 @@
             this.teamOneNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.teamOneNameLabel.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamOneNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.teamOneNameLabel.Location = new System.Drawing.Point(112, 73);
+            this.teamOneNameLabel.Location = new System.Drawing.Point(116, 73);
             this.teamOneNameLabel.Name = "teamOneNameLabel";
             this.teamOneNameLabel.Size = new System.Drawing.Size(133, 41);
             this.teamOneNameLabel.TabIndex = 1;
@@ -124,9 +124,9 @@
             this.label1.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.label1.Image = global::_100to1.Properties.Resources.ScoresBackground;
-            this.label1.Location = new System.Drawing.Point(81, 114);
+            this.label1.Location = new System.Drawing.Point(92, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(208, 168);
+            this.label1.Size = new System.Drawing.Size(184, 136);
             this.label1.TabIndex = 2;
             this.label1.Text = "1234";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -139,9 +139,9 @@
             this.label2.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.label2.Image = global::_100to1.Properties.Resources.ScoresBackground;
-            this.label2.Location = new System.Drawing.Point(1007, 114);
+            this.label2.Location = new System.Drawing.Point(1018, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 168);
+            this.label2.Size = new System.Drawing.Size(184, 136);
             this.label2.TabIndex = 4;
             this.label2.Text = "1234";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -155,7 +155,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.label3.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label3.Location = new System.Drawing.Point(1034, 73);
+            this.label3.Location = new System.Drawing.Point(1041, 73);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(133, 41);
             this.label3.TabIndex = 3;
@@ -355,10 +355,10 @@
             this.answerSixPB.BackColor = System.Drawing.Color.Transparent;
             this.answerSixPB.BackgroundImage = global::_100to1.Properties.Resources.AnswerSix;
             this.answerSixPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.answerSixPB.Location = new System.Drawing.Point(369, 851);
-            this.answerSixPB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.answerSixPB.Location = new System.Drawing.Point(370, 879);
+            this.answerSixPB.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.answerSixPB.Name = "answerSixPB";
-            this.answerSixPB.Size = new System.Drawing.Size(566, 137);
+            this.answerSixPB.Size = new System.Drawing.Size(562, 72);
             this.answerSixPB.TabIndex = 22;
             this.answerSixPB.TabStop = false;
             // 
@@ -370,10 +370,10 @@
             this.answerFivePB.BackColor = System.Drawing.Color.Transparent;
             this.answerFivePB.BackgroundImage = global::_100to1.Properties.Resources.AnswerFive;
             this.answerFivePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.answerFivePB.Location = new System.Drawing.Point(369, 740);
-            this.answerFivePB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.answerFivePB.Location = new System.Drawing.Point(370, 770);
+            this.answerFivePB.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.answerFivePB.Name = "answerFivePB";
-            this.answerFivePB.Size = new System.Drawing.Size(566, 137);
+            this.answerFivePB.Size = new System.Drawing.Size(562, 72);
             this.answerFivePB.TabIndex = 23;
             this.answerFivePB.TabStop = false;
             // 
@@ -385,10 +385,10 @@
             this.answerFourPB.BackColor = System.Drawing.Color.Transparent;
             this.answerFourPB.BackgroundImage = global::_100to1.Properties.Resources.AnswerFour;
             this.answerFourPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.answerFourPB.Location = new System.Drawing.Point(369, 629);
-            this.answerFourPB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.answerFourPB.Location = new System.Drawing.Point(370, 663);
+            this.answerFourPB.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.answerFourPB.Name = "answerFourPB";
-            this.answerFourPB.Size = new System.Drawing.Size(566, 137);
+            this.answerFourPB.Size = new System.Drawing.Size(562, 72);
             this.answerFourPB.TabIndex = 24;
             this.answerFourPB.TabStop = false;
             // 
@@ -400,10 +400,10 @@
             this.answerThreePB.BackColor = System.Drawing.Color.Transparent;
             this.answerThreePB.BackgroundImage = global::_100to1.Properties.Resources.AnswerThree;
             this.answerThreePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.answerThreePB.Location = new System.Drawing.Point(369, 518);
-            this.answerThreePB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.answerThreePB.Location = new System.Drawing.Point(370, 554);
+            this.answerThreePB.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.answerThreePB.Name = "answerThreePB";
-            this.answerThreePB.Size = new System.Drawing.Size(566, 137);
+            this.answerThreePB.Size = new System.Drawing.Size(562, 72);
             this.answerThreePB.TabIndex = 25;
             this.answerThreePB.TabStop = false;
             // 
@@ -415,10 +415,10 @@
             this.answerTwoPB.BackColor = System.Drawing.Color.Transparent;
             this.answerTwoPB.BackgroundImage = global::_100to1.Properties.Resources.AnswerTwo;
             this.answerTwoPB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.answerTwoPB.Location = new System.Drawing.Point(369, 407);
-            this.answerTwoPB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.answerTwoPB.Location = new System.Drawing.Point(370, 445);
+            this.answerTwoPB.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.answerTwoPB.Name = "answerTwoPB";
-            this.answerTwoPB.Size = new System.Drawing.Size(566, 137);
+            this.answerTwoPB.Size = new System.Drawing.Size(562, 72);
             this.answerTwoPB.TabIndex = 26;
             this.answerTwoPB.TabStop = false;
             // 
@@ -430,10 +430,10 @@
             this.answerOnePB.BackColor = System.Drawing.Color.Transparent;
             this.answerOnePB.BackgroundImage = global::_100to1.Properties.Resources.AnswerOne;
             this.answerOnePB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.answerOnePB.Location = new System.Drawing.Point(369, 296);
-            this.answerOnePB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
+            this.answerOnePB.Location = new System.Drawing.Point(370, 336);
+            this.answerOnePB.Margin = new System.Windows.Forms.Padding(3, 40, 3, 3);
             this.answerOnePB.Name = "answerOnePB";
-            this.answerOnePB.Size = new System.Drawing.Size(566, 137);
+            this.answerOnePB.Size = new System.Drawing.Size(562, 72);
             this.answerOnePB.TabIndex = 27;
             this.answerOnePB.TabStop = false;
             // 
@@ -443,7 +443,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.label4.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label4.Location = new System.Drawing.Point(600, 141);
+            this.label4.Location = new System.Drawing.Point(579, 127);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(129, 76);
             this.label4.TabIndex = 28;
@@ -456,7 +456,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(49)))));
             this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label5.Location = new System.Drawing.Point(600, 217);
+            this.label5.Location = new System.Drawing.Point(579, 203);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(129, 25);
             this.label5.TabIndex = 29;
@@ -469,7 +469,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
             this.label6.Font = new System.Drawing.Font("Panton ExtraBold", 20F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label6.Location = new System.Drawing.Point(629, 242);
+            this.label6.Location = new System.Drawing.Point(608, 228);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 41);
             this.label6.TabIndex = 30;
@@ -484,7 +484,8 @@
             this.answerOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerOne.Location = new System.Drawing.Point(372, 330);
+            this.answerOne.Location = new System.Drawing.Point(371, 336);
+            this.answerOne.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.answerOne.Name = "answerOne";
             this.answerOne.Size = new System.Drawing.Size(467, 69);
             this.answerOne.TabIndex = 31;
@@ -499,7 +500,8 @@
             this.pointsOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsOne.Location = new System.Drawing.Point(844, 330);
+            this.pointsOne.Location = new System.Drawing.Point(843, 336);
+            this.pointsOne.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsOne.Name = "pointsOne";
             this.pointsOne.Size = new System.Drawing.Size(86, 69);
             this.pointsOne.TabIndex = 32;
@@ -514,7 +516,8 @@
             this.answerTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerTwo.Location = new System.Drawing.Point(373, 440);
+            this.answerTwo.Location = new System.Drawing.Point(371, 445);
+            this.answerTwo.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.answerTwo.Name = "answerTwo";
             this.answerTwo.Size = new System.Drawing.Size(467, 69);
             this.answerTwo.TabIndex = 31;
@@ -529,7 +532,8 @@
             this.pointsTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsTwo.Location = new System.Drawing.Point(844, 440);
+            this.pointsTwo.Location = new System.Drawing.Point(842, 445);
+            this.pointsTwo.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsTwo.Name = "pointsTwo";
             this.pointsTwo.Size = new System.Drawing.Size(86, 69);
             this.pointsTwo.TabIndex = 32;
@@ -544,7 +548,8 @@
             this.answerThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerThree.Location = new System.Drawing.Point(373, 552);
+            this.answerThree.Location = new System.Drawing.Point(371, 554);
+            this.answerThree.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.answerThree.Name = "answerThree";
             this.answerThree.Size = new System.Drawing.Size(467, 69);
             this.answerThree.TabIndex = 31;
@@ -559,7 +564,8 @@
             this.pointsThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsThree.Location = new System.Drawing.Point(844, 552);
+            this.pointsThree.Location = new System.Drawing.Point(842, 554);
+            this.pointsThree.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsThree.Name = "pointsThree";
             this.pointsThree.Size = new System.Drawing.Size(86, 69);
             this.pointsThree.TabIndex = 32;
@@ -574,7 +580,8 @@
             this.answerFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerFour.Location = new System.Drawing.Point(372, 661);
+            this.answerFour.Location = new System.Drawing.Point(371, 663);
+            this.answerFour.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.answerFour.Name = "answerFour";
             this.answerFour.Size = new System.Drawing.Size(467, 69);
             this.answerFour.TabIndex = 31;
@@ -589,7 +596,8 @@
             this.pointsFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsFour.Location = new System.Drawing.Point(844, 661);
+            this.pointsFour.Location = new System.Drawing.Point(843, 663);
+            this.pointsFour.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsFour.Name = "pointsFour";
             this.pointsFour.Size = new System.Drawing.Size(86, 69);
             this.pointsFour.TabIndex = 32;
@@ -604,7 +612,8 @@
             this.answerFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerFive.Location = new System.Drawing.Point(373, 772);
+            this.answerFive.Location = new System.Drawing.Point(371, 770);
+            this.answerFive.Margin = new System.Windows.Forms.Padding(3, 20, 3, 0);
             this.answerFive.Name = "answerFive";
             this.answerFive.Size = new System.Drawing.Size(467, 69);
             this.answerFive.TabIndex = 31;
@@ -619,7 +628,8 @@
             this.pointsFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsFive.Location = new System.Drawing.Point(844, 772);
+            this.pointsFive.Location = new System.Drawing.Point(842, 770);
+            this.pointsFive.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsFive.Name = "pointsFive";
             this.pointsFive.Size = new System.Drawing.Size(86, 69);
             this.pointsFive.TabIndex = 32;
@@ -634,7 +644,8 @@
             this.answerSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerSix.Location = new System.Drawing.Point(373, 884);
+            this.answerSix.Location = new System.Drawing.Point(371, 879);
+            this.answerSix.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.answerSix.Name = "answerSix";
             this.answerSix.Size = new System.Drawing.Size(467, 69);
             this.answerSix.TabIndex = 31;
@@ -649,7 +660,8 @@
             this.pointsSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsSix.Location = new System.Drawing.Point(844, 884);
+            this.pointsSix.Location = new System.Drawing.Point(842, 879);
+            this.pointsSix.Margin = new System.Windows.Forms.Padding(3, 20, 3, 0);
             this.pointsSix.Name = "pointsSix";
             this.pointsSix.Size = new System.Drawing.Size(86, 69);
             this.pointsSix.TabIndex = 32;
