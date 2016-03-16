@@ -41,9 +41,16 @@ namespace _100to1
             answer1TextBox.Text = Base.answers[0][id].ToString(); // Прости за эту стену текста, но мне было лень делать массив)
             answer2TextBox.Text = Base.answers[1][id].ToString(); // Да и всего 6 строчек, не сильно и говнокод
             answer3TextBox.Text = Base.answers[2][id].ToString();
-            answer4TextBox.Text = Base.answers[0][id].ToString();
-            answer5TextBox.Text = Base.answers[1][id].ToString();
-            answer6TextBox.Text = Base.answers[2][id].ToString();
+            answer4TextBox.Text = Base.answers[3][id].ToString();
+            answer5TextBox.Text = Base.answers[4][id].ToString();
+            answer6TextBox.Text = Base.answers[5][id].ToString();
+
+            answer1PointsTextBox.Text = Base.score[0][id].ToString(); //Ладно, переписать это в виде цикла было бы нормальной идеей)
+            answer2PointsTextBox.Text = Base.score[1][id].ToString();
+            answer3PointsTextBox.Text = Base.score[2][id].ToString();
+            answer4PointsTextBox.Text = Base.score[3][id].ToString();
+            answer5PointsTextBox.Text = Base.score[4][id].ToString();
+            answer6PointsTextBox.Text = Base.score[5][id].ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -80,6 +87,21 @@ namespace _100to1
         private void questionNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             questionInit(questionNameComboBox.SelectedIndex);
+        }
+
+        private void textBox_DoubleClick(object sender, EventArgs e)
+        {
+            ((TextBox)sender).ReadOnly = false;
+            //MessageBox.Show("help");
+        }
+
+        private void textBox_KeyUp(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                ((TextBox)sender).ReadOnly = true;
+                //Добавить функцию отправки данных на ViewForm
+            }
         }
     }
 }
