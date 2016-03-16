@@ -14,12 +14,13 @@ namespace _100to1
     public partial class ViewForm : Form
     {
         public ArrayList teamsMistakes = new ArrayList(); //Костыль, но ничего лучше я не придумал)
-        public ArrayList teamTwoMistakes = new ArrayList();
+        public ArrayList AnswersPB = new ArrayList();
 
         public ViewForm()
         {
             InitializeComponent();
             mistakesInit();
+            answersInit();
             
         }
 
@@ -33,6 +34,16 @@ namespace _100to1
             teamsMistakes.Add(teamTwoMistakeTwoTrue);
             teamsMistakes.Add(teamTwoMistakeThreeTrue);
 
+        }
+
+        public void answersInit()
+        {
+            AnswersPB.Add(answerOnePB);
+            AnswersPB.Add(answerTwoPB);
+            AnswersPB.Add(answerThreePB);
+            AnswersPB.Add(answerFourPB);
+            AnswersPB.Add(answerFivePB);
+            AnswersPB.Add(answerSixPB);
         }
 
         private void ViewForm_Load(object sender, EventArgs e)

@@ -71,11 +71,21 @@
             this.answer4PointsTextBox = new System.Windows.Forms.TextBox();
             this.answer5PointsTextBox = new System.Windows.Forms.TextBox();
             this.answer6PointsTextBox = new System.Windows.Forms.TextBox();
+            this.answer1CheckBox = new System.Windows.Forms.CheckBox();
+            this.answer2CheckBox = new System.Windows.Forms.CheckBox();
+            this.answer3CheckBox = new System.Windows.Forms.CheckBox();
+            this.answer4CheckBox = new System.Windows.Forms.CheckBox();
+            this.answer5CheckBox = new System.Windows.Forms.CheckBox();
+            this.answer6CheckBox = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.roundNumberTB = new System.Windows.Forms.TextBox();
+            this.questionNumberTB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // answer1TextBox
             // 
-            this.answer1TextBox.Location = new System.Drawing.Point(311, 222);
+            this.answer1TextBox.Location = new System.Drawing.Point(336, 293);
             this.answer1TextBox.Name = "answer1TextBox";
             this.answer1TextBox.ReadOnly = true;
             this.answer1TextBox.Size = new System.Drawing.Size(289, 20);
@@ -86,7 +96,7 @@
             // 
             // answer2TextBox
             // 
-            this.answer2TextBox.Location = new System.Drawing.Point(311, 261);
+            this.answer2TextBox.Location = new System.Drawing.Point(336, 332);
             this.answer2TextBox.Name = "answer2TextBox";
             this.answer2TextBox.ReadOnly = true;
             this.answer2TextBox.Size = new System.Drawing.Size(289, 20);
@@ -96,7 +106,7 @@
             // 
             // answer3TextBox
             // 
-            this.answer3TextBox.Location = new System.Drawing.Point(311, 300);
+            this.answer3TextBox.Location = new System.Drawing.Point(336, 371);
             this.answer3TextBox.Name = "answer3TextBox";
             this.answer3TextBox.ReadOnly = true;
             this.answer3TextBox.Size = new System.Drawing.Size(289, 20);
@@ -106,7 +116,7 @@
             // 
             // answer4TextBox
             // 
-            this.answer4TextBox.Location = new System.Drawing.Point(311, 339);
+            this.answer4TextBox.Location = new System.Drawing.Point(336, 410);
             this.answer4TextBox.Name = "answer4TextBox";
             this.answer4TextBox.ReadOnly = true;
             this.answer4TextBox.Size = new System.Drawing.Size(289, 20);
@@ -116,7 +126,7 @@
             // 
             // answer5TextBox
             // 
-            this.answer5TextBox.Location = new System.Drawing.Point(311, 378);
+            this.answer5TextBox.Location = new System.Drawing.Point(336, 449);
             this.answer5TextBox.Name = "answer5TextBox";
             this.answer5TextBox.ReadOnly = true;
             this.answer5TextBox.Size = new System.Drawing.Size(289, 20);
@@ -126,7 +136,7 @@
             // 
             // answer6TextBox
             // 
-            this.answer6TextBox.Location = new System.Drawing.Point(311, 417);
+            this.answer6TextBox.Location = new System.Drawing.Point(336, 488);
             this.answer6TextBox.Name = "answer6TextBox";
             this.answer6TextBox.ReadOnly = true;
             this.answer6TextBox.Size = new System.Drawing.Size(289, 20);
@@ -137,7 +147,7 @@
             // answer1Label
             // 
             this.answer1Label.AutoSize = true;
-            this.answer1Label.Location = new System.Drawing.Point(424, 206);
+            this.answer1Label.Location = new System.Drawing.Point(449, 277);
             this.answer1Label.Name = "answer1Label";
             this.answer1Label.Size = new System.Drawing.Size(78, 13);
             this.answer1Label.TabIndex = 6;
@@ -147,7 +157,7 @@
             // answer2Label
             // 
             this.answer2Label.AutoSize = true;
-            this.answer2Label.Location = new System.Drawing.Point(421, 245);
+            this.answer2Label.Location = new System.Drawing.Point(446, 316);
             this.answer2Label.Name = "answer2Label";
             this.answer2Label.Size = new System.Drawing.Size(74, 13);
             this.answer2Label.TabIndex = 7;
@@ -156,7 +166,7 @@
             // answer3Label
             // 
             this.answer3Label.AutoSize = true;
-            this.answer3Label.Location = new System.Drawing.Point(423, 284);
+            this.answer3Label.Location = new System.Drawing.Point(448, 355);
             this.answer3Label.Name = "answer3Label";
             this.answer3Label.Size = new System.Drawing.Size(74, 13);
             this.answer3Label.TabIndex = 8;
@@ -165,7 +175,7 @@
             // answer4Label
             // 
             this.answer4Label.AutoSize = true;
-            this.answer4Label.Location = new System.Drawing.Point(421, 323);
+            this.answer4Label.Location = new System.Drawing.Point(446, 394);
             this.answer4Label.Name = "answer4Label";
             this.answer4Label.Size = new System.Drawing.Size(89, 13);
             this.answer4Label.TabIndex = 9;
@@ -174,7 +184,7 @@
             // answer5Label
             // 
             this.answer5Label.AutoSize = true;
-            this.answer5Label.Location = new System.Drawing.Point(424, 362);
+            this.answer5Label.Location = new System.Drawing.Point(449, 433);
             this.answer5Label.Name = "answer5Label";
             this.answer5Label.Size = new System.Drawing.Size(71, 13);
             this.answer5Label.TabIndex = 10;
@@ -183,7 +193,7 @@
             // answer6Label
             // 
             this.answer6Label.AutoSize = true;
-            this.answer6Label.Location = new System.Drawing.Point(424, 401);
+            this.answer6Label.Location = new System.Drawing.Point(449, 472);
             this.answer6Label.Name = "answer6Label";
             this.answer6Label.Size = new System.Drawing.Size(76, 13);
             this.answer6Label.TabIndex = 11;
@@ -256,7 +266,7 @@
             this.firstTeamPointsLabel.Name = "firstTeamPointsLabel";
             this.firstTeamPointsLabel.Size = new System.Drawing.Size(120, 13);
             this.firstTeamPointsLabel.TabIndex = 18;
-            this.firstTeamPointsLabel.Text = "Очки певрой команды";
+            this.firstTeamPointsLabel.Text = "Очки первой команды";
             // 
             // secondTeamPointsLabel
             // 
@@ -269,11 +279,11 @@
             // 
             // confirmBtn
             // 
-            this.confirmBtn.Location = new System.Drawing.Point(311, 519);
+            this.confirmBtn.Location = new System.Drawing.Point(378, 538);
             this.confirmBtn.Name = "confirmBtn";
             this.confirmBtn.Size = new System.Drawing.Size(216, 70);
             this.confirmBtn.TabIndex = 20;
-            this.confirmBtn.Text = "Изменить";
+            this.confirmBtn.Text = "Следующий раунд";
             this.confirmBtn.UseVisualStyleBackColor = true;
             // 
             // firstTeamMistakeOne
@@ -423,7 +433,7 @@
             // allPointsTextBox
             // 
             this.allPointsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.allPointsTextBox.Location = new System.Drawing.Point(452, 124);
+            this.allPointsTextBox.Location = new System.Drawing.Point(452, 204);
             this.allPointsTextBox.Name = "allPointsTextBox";
             this.allPointsTextBox.ReadOnly = true;
             this.allPointsTextBox.Size = new System.Drawing.Size(68, 38);
@@ -434,7 +444,7 @@
             // allPointsLabel
             // 
             this.allPointsLabel.AutoSize = true;
-            this.allPointsLabel.Location = new System.Drawing.Point(436, 108);
+            this.allPointsLabel.Location = new System.Drawing.Point(436, 188);
             this.allPointsLabel.Name = "allPointsLabel";
             this.allPointsLabel.Size = new System.Drawing.Size(105, 13);
             this.allPointsLabel.TabIndex = 35;
@@ -442,7 +452,7 @@
             // 
             // answer1PointsTextBox
             // 
-            this.answer1PointsTextBox.Location = new System.Drawing.Point(606, 222);
+            this.answer1PointsTextBox.Location = new System.Drawing.Point(631, 293);
             this.answer1PointsTextBox.Name = "answer1PointsTextBox";
             this.answer1PointsTextBox.ReadOnly = true;
             this.answer1PointsTextBox.Size = new System.Drawing.Size(32, 20);
@@ -452,7 +462,7 @@
             // 
             // answer2PointsTextBox
             // 
-            this.answer2PointsTextBox.Location = new System.Drawing.Point(606, 261);
+            this.answer2PointsTextBox.Location = new System.Drawing.Point(631, 332);
             this.answer2PointsTextBox.Name = "answer2PointsTextBox";
             this.answer2PointsTextBox.ReadOnly = true;
             this.answer2PointsTextBox.Size = new System.Drawing.Size(32, 20);
@@ -462,7 +472,7 @@
             // 
             // answer3PointsTextBox
             // 
-            this.answer3PointsTextBox.Location = new System.Drawing.Point(606, 300);
+            this.answer3PointsTextBox.Location = new System.Drawing.Point(631, 371);
             this.answer3PointsTextBox.Name = "answer3PointsTextBox";
             this.answer3PointsTextBox.ReadOnly = true;
             this.answer3PointsTextBox.Size = new System.Drawing.Size(32, 20);
@@ -472,7 +482,7 @@
             // 
             // answer4PointsTextBox
             // 
-            this.answer4PointsTextBox.Location = new System.Drawing.Point(606, 339);
+            this.answer4PointsTextBox.Location = new System.Drawing.Point(631, 410);
             this.answer4PointsTextBox.Name = "answer4PointsTextBox";
             this.answer4PointsTextBox.ReadOnly = true;
             this.answer4PointsTextBox.Size = new System.Drawing.Size(32, 20);
@@ -482,7 +492,7 @@
             // 
             // answer5PointsTextBox
             // 
-            this.answer5PointsTextBox.Location = new System.Drawing.Point(606, 378);
+            this.answer5PointsTextBox.Location = new System.Drawing.Point(631, 449);
             this.answer5PointsTextBox.Name = "answer5PointsTextBox";
             this.answer5PointsTextBox.ReadOnly = true;
             this.answer5PointsTextBox.Size = new System.Drawing.Size(32, 20);
@@ -492,7 +502,7 @@
             // 
             // answer6PointsTextBox
             // 
-            this.answer6PointsTextBox.Location = new System.Drawing.Point(606, 417);
+            this.answer6PointsTextBox.Location = new System.Drawing.Point(631, 488);
             this.answer6PointsTextBox.Name = "answer6PointsTextBox";
             this.answer6PointsTextBox.ReadOnly = true;
             this.answer6PointsTextBox.Size = new System.Drawing.Size(32, 20);
@@ -500,11 +510,136 @@
             this.answer6PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer6PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
+            // answer1CheckBox
+            // 
+            this.answer1CheckBox.AutoSize = true;
+            this.answer1CheckBox.Checked = true;
+            this.answer1CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.answer1CheckBox.Location = new System.Drawing.Point(315, 296);
+            this.answer1CheckBox.Name = "answer1CheckBox";
+            this.answer1CheckBox.Size = new System.Drawing.Size(15, 14);
+            this.answer1CheckBox.TabIndex = 101;
+            this.answer1CheckBox.Tag = "0";
+            this.answer1CheckBox.UseVisualStyleBackColor = true;
+            this.answer1CheckBox.CheckedChanged += new System.EventHandler(this.answerCheckBox_CheckedChanged);
+            // 
+            // answer2CheckBox
+            // 
+            this.answer2CheckBox.AutoSize = true;
+            this.answer2CheckBox.Checked = true;
+            this.answer2CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.answer2CheckBox.Location = new System.Drawing.Point(315, 335);
+            this.answer2CheckBox.Name = "answer2CheckBox";
+            this.answer2CheckBox.Size = new System.Drawing.Size(15, 14);
+            this.answer2CheckBox.TabIndex = 102;
+            this.answer2CheckBox.Tag = "1";
+            this.answer2CheckBox.UseVisualStyleBackColor = true;
+            this.answer2CheckBox.CheckedChanged += new System.EventHandler(this.answerCheckBox_CheckedChanged);
+            // 
+            // answer3CheckBox
+            // 
+            this.answer3CheckBox.AutoSize = true;
+            this.answer3CheckBox.Checked = true;
+            this.answer3CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.answer3CheckBox.Location = new System.Drawing.Point(315, 374);
+            this.answer3CheckBox.Name = "answer3CheckBox";
+            this.answer3CheckBox.Size = new System.Drawing.Size(15, 14);
+            this.answer3CheckBox.TabIndex = 103;
+            this.answer3CheckBox.Tag = "2";
+            this.answer3CheckBox.UseVisualStyleBackColor = true;
+            this.answer3CheckBox.CheckedChanged += new System.EventHandler(this.answerCheckBox_CheckedChanged);
+            // 
+            // answer4CheckBox
+            // 
+            this.answer4CheckBox.AutoSize = true;
+            this.answer4CheckBox.Checked = true;
+            this.answer4CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.answer4CheckBox.Location = new System.Drawing.Point(315, 413);
+            this.answer4CheckBox.Name = "answer4CheckBox";
+            this.answer4CheckBox.Size = new System.Drawing.Size(15, 14);
+            this.answer4CheckBox.TabIndex = 104;
+            this.answer4CheckBox.Tag = "3";
+            this.answer4CheckBox.UseVisualStyleBackColor = true;
+            this.answer4CheckBox.CheckedChanged += new System.EventHandler(this.answerCheckBox_CheckedChanged);
+            // 
+            // answer5CheckBox
+            // 
+            this.answer5CheckBox.AutoSize = true;
+            this.answer5CheckBox.Checked = true;
+            this.answer5CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.answer5CheckBox.Location = new System.Drawing.Point(315, 452);
+            this.answer5CheckBox.Name = "answer5CheckBox";
+            this.answer5CheckBox.Size = new System.Drawing.Size(15, 14);
+            this.answer5CheckBox.TabIndex = 105;
+            this.answer5CheckBox.Tag = "4";
+            this.answer5CheckBox.UseVisualStyleBackColor = true;
+            this.answer5CheckBox.CheckedChanged += new System.EventHandler(this.answerCheckBox_CheckedChanged);
+            // 
+            // answer6CheckBox
+            // 
+            this.answer6CheckBox.AutoSize = true;
+            this.answer6CheckBox.Checked = true;
+            this.answer6CheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.answer6CheckBox.Location = new System.Drawing.Point(315, 491);
+            this.answer6CheckBox.Name = "answer6CheckBox";
+            this.answer6CheckBox.Size = new System.Drawing.Size(15, 14);
+            this.answer6CheckBox.TabIndex = 106;
+            this.answer6CheckBox.Tag = "5";
+            this.answer6CheckBox.UseVisualStyleBackColor = true;
+            this.answer6CheckBox.CheckedChanged += new System.EventHandler(this.answerCheckBox_CheckedChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(312, 108);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 13);
+            this.label1.TabIndex = 107;
+            this.label1.Text = "Номер раунда";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(584, 108);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 13);
+            this.label2.TabIndex = 108;
+            this.label2.Text = "Номер вопроса";
+            // 
+            // roundNumberTB
+            // 
+            this.roundNumberTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundNumberTB.Location = new System.Drawing.Point(336, 124);
+            this.roundNumberTB.Name = "roundNumberTB";
+            this.roundNumberTB.ReadOnly = true;
+            this.roundNumberTB.Size = new System.Drawing.Size(40, 38);
+            this.roundNumberTB.TabIndex = 109;
+            // 
+            // questionNumberTB
+            // 
+            this.questionNumberTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.questionNumberTB.Location = new System.Drawing.Point(608, 124);
+            this.questionNumberTB.Name = "questionNumberTB";
+            this.questionNumberTB.ReadOnly = true;
+            this.questionNumberTB.Size = new System.Drawing.Size(40, 38);
+            this.questionNumberTB.TabIndex = 110;
+            this.questionNumberTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(959, 647);
+            this.Controls.Add(this.questionNumberTB);
+            this.Controls.Add(this.roundNumberTB);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.answer6CheckBox);
+            this.Controls.Add(this.answer5CheckBox);
+            this.Controls.Add(this.answer4CheckBox);
+            this.Controls.Add(this.answer3CheckBox);
+            this.Controls.Add(this.answer2CheckBox);
+            this.Controls.Add(this.answer1CheckBox);
             this.Controls.Add(this.answer6PointsTextBox);
             this.Controls.Add(this.answer5PointsTextBox);
             this.Controls.Add(this.answer4PointsTextBox);
@@ -599,6 +734,16 @@
         private System.Windows.Forms.TextBox answer4PointsTextBox;
         private System.Windows.Forms.TextBox answer5PointsTextBox;
         private System.Windows.Forms.TextBox answer6PointsTextBox;
+        private System.Windows.Forms.CheckBox answer1CheckBox;
+        private System.Windows.Forms.CheckBox answer2CheckBox;
+        private System.Windows.Forms.CheckBox answer3CheckBox;
+        private System.Windows.Forms.CheckBox answer4CheckBox;
+        private System.Windows.Forms.CheckBox answer5CheckBox;
+        private System.Windows.Forms.CheckBox answer6CheckBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox roundNumberTB;
+        private System.Windows.Forms.TextBox questionNumberTB;
     }
 }
 

@@ -14,6 +14,7 @@ namespace _100to1
     {
         public string basePath = @"C:\Works\test.txt"; // Пусть к базе
         public ViewForm vf;
+        int roundCount = 1;
         public AdminForm()
         {
             InitializeComponent();
@@ -31,7 +32,7 @@ namespace _100to1
             {
                 questionNameComboBox.Items.Add(Base.questions[i]);
             }
-            questionNameComboBox.SelectedIndex = 0; // Убрать эту хуйню при генерации вопроса, потом. =)
+            questionNameComboBox.SelectedIndex = 0; // Первый вопрос по умолчанию, потом переделать.
         }
 
 
@@ -87,6 +88,7 @@ namespace _100to1
         private void questionNameComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             questionInit(questionNameComboBox.SelectedIndex);
+            questionNumberTB.Text = Convert.ToString(questionNameComboBox.SelectedIndex + 1);
         }
 
         private void textBox_DoubleClick(object sender, EventArgs e)
@@ -115,6 +117,12 @@ namespace _100to1
         {
             int id = Convert.ToInt32(((CheckBox)sender).Tag);
             ((PictureBox)vf.teamsMistakes[id]).Visible = (((CheckBox)sender).Checked);
+        }
+
+        private void answerCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            int id = Convert.ToInt32(((CheckBox)sender).Tag);
+            ((PictureBox)vf.AnswersPB[id]).Visible = (((CheckBox)sender).Checked);
         }
     }
 }
