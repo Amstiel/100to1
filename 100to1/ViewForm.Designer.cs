@@ -95,9 +95,9 @@
             this.logoPicture.BackColor = System.Drawing.Color.Transparent;
             this.logoPicture.BackgroundImage = global::_100to1.Properties.Resources.viewLogo;
             this.logoPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.logoPicture.Location = new System.Drawing.Point(497, 12);
+            this.logoPicture.Location = new System.Drawing.Point(522, 28);
             this.logoPicture.Name = "logoPicture";
-            this.logoPicture.Size = new System.Drawing.Size(281, 77);
+            this.logoPicture.Size = new System.Drawing.Size(278, 64);
             this.logoPicture.TabIndex = 0;
             this.logoPicture.TabStop = false;
             // 
@@ -126,7 +126,7 @@
             this.label1.Image = global::_100to1.Properties.Resources.ScoresBackground;
             this.label1.Location = new System.Drawing.Point(81, 114);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 129);
+            this.label1.Size = new System.Drawing.Size(208, 168);
             this.label1.TabIndex = 2;
             this.label1.Text = "1234";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,7 +141,7 @@
             this.label2.Image = global::_100to1.Properties.Resources.ScoresBackground;
             this.label2.Location = new System.Drawing.Point(1007, 114);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(192, 129);
+            this.label2.Size = new System.Drawing.Size(208, 168);
             this.label2.TabIndex = 4;
             this.label2.Text = "1234";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -167,11 +167,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeOne.BackColor = System.Drawing.Color.Transparent;
-            this.teamOneMistakeOne.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
+            this.teamOneMistakeOne.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False1;
             this.teamOneMistakeOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamOneMistakeOne.Location = new System.Drawing.Point(62, 464);
             this.teamOneMistakeOne.Name = "teamOneMistakeOne";
-            this.teamOneMistakeOne.Size = new System.Drawing.Size(231, 79);
+            this.teamOneMistakeOne.Size = new System.Drawing.Size(247, 118);
             this.teamOneMistakeOne.TabIndex = 5;
             this.teamOneMistakeOne.TabStop = false;
             this.teamOneMistakeOne.Click += new System.EventHandler(this.teamOneMistakeOne_Click);
@@ -182,11 +182,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeTwo.BackColor = System.Drawing.Color.Transparent;
-            this.teamOneMistakeTwo.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
+            this.teamOneMistakeTwo.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False1;
             this.teamOneMistakeTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamOneMistakeTwo.Location = new System.Drawing.Point(62, 563);
             this.teamOneMistakeTwo.Name = "teamOneMistakeTwo";
-            this.teamOneMistakeTwo.Size = new System.Drawing.Size(231, 79);
+            this.teamOneMistakeTwo.Size = new System.Drawing.Size(247, 118);
             this.teamOneMistakeTwo.TabIndex = 6;
             this.teamOneMistakeTwo.TabStop = false;
             this.teamOneMistakeTwo.Click += new System.EventHandler(this.teamOneMistakeTwo_Click);
@@ -197,11 +197,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneMistakeThree.BackColor = System.Drawing.Color.Transparent;
-            this.teamOneMistakeThree.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
+            this.teamOneMistakeThree.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False1;
             this.teamOneMistakeThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamOneMistakeThree.Location = new System.Drawing.Point(62, 666);
             this.teamOneMistakeThree.Name = "teamOneMistakeThree";
-            this.teamOneMistakeThree.Size = new System.Drawing.Size(231, 79);
+            this.teamOneMistakeThree.Size = new System.Drawing.Size(247, 118);
             this.teamOneMistakeThree.TabIndex = 7;
             this.teamOneMistakeThree.TabStop = false;
             this.teamOneMistakeThree.Click += new System.EventHandler(this.teamOneMistakeThree_Click);
@@ -212,11 +212,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeOne.BackColor = System.Drawing.Color.Transparent;
-            this.teamTwoMistakeOne.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
+            this.teamTwoMistakeOne.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False1;
             this.teamTwoMistakeOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamTwoMistakeOne.Location = new System.Drawing.Point(984, 464);
             this.teamTwoMistakeOne.Name = "teamTwoMistakeOne";
-            this.teamTwoMistakeOne.Size = new System.Drawing.Size(231, 79);
+            this.teamTwoMistakeOne.Size = new System.Drawing.Size(247, 118);
             this.teamTwoMistakeOne.TabIndex = 8;
             this.teamTwoMistakeOne.TabStop = false;
             this.teamTwoMistakeOne.Click += new System.EventHandler(this.teamTwoMistakeOne_Click);
@@ -227,11 +227,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeTwo.BackColor = System.Drawing.Color.Transparent;
-            this.teamTwoMistakeTwo.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
+            this.teamTwoMistakeTwo.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False1;
             this.teamTwoMistakeTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamTwoMistakeTwo.Location = new System.Drawing.Point(984, 563);
             this.teamTwoMistakeTwo.Name = "teamTwoMistakeTwo";
-            this.teamTwoMistakeTwo.Size = new System.Drawing.Size(231, 79);
+            this.teamTwoMistakeTwo.Size = new System.Drawing.Size(247, 118);
             this.teamTwoMistakeTwo.TabIndex = 9;
             this.teamTwoMistakeTwo.TabStop = false;
             this.teamTwoMistakeTwo.Click += new System.EventHandler(this.teamTwoMistakeTwo_Click);
@@ -242,11 +242,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoMistakeThree.BackColor = System.Drawing.Color.Transparent;
-            this.teamTwoMistakeThree.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False;
+            this.teamTwoMistakeThree.BackgroundImage = global::_100to1.Properties.Resources.Mistake_False1;
             this.teamTwoMistakeThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamTwoMistakeThree.Location = new System.Drawing.Point(984, 666);
             this.teamTwoMistakeThree.Name = "teamTwoMistakeThree";
-            this.teamTwoMistakeThree.Size = new System.Drawing.Size(231, 79);
+            this.teamTwoMistakeThree.Size = new System.Drawing.Size(247, 118);
             this.teamTwoMistakeThree.TabIndex = 10;
             this.teamTwoMistakeThree.TabStop = false;
             this.teamTwoMistakeThree.Click += new System.EventHandler(this.teamTwoMistakeThree_Click);
@@ -261,7 +261,7 @@
             this.teamOneMistakeOneTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamOneMistakeOneTrue.Location = new System.Drawing.Point(62, 464);
             this.teamOneMistakeOneTrue.Name = "teamOneMistakeOneTrue";
-            this.teamOneMistakeOneTrue.Size = new System.Drawing.Size(231, 79);
+            this.teamOneMistakeOneTrue.Size = new System.Drawing.Size(247, 118);
             this.teamOneMistakeOneTrue.TabIndex = 11;
             this.teamOneMistakeOneTrue.TabStop = false;
             this.teamOneMistakeOneTrue.Visible = false;
@@ -277,7 +277,7 @@
             this.teamOneMistakeTwoTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamOneMistakeTwoTrue.Location = new System.Drawing.Point(62, 563);
             this.teamOneMistakeTwoTrue.Name = "teamOneMistakeTwoTrue";
-            this.teamOneMistakeTwoTrue.Size = new System.Drawing.Size(231, 79);
+            this.teamOneMistakeTwoTrue.Size = new System.Drawing.Size(247, 118);
             this.teamOneMistakeTwoTrue.TabIndex = 12;
             this.teamOneMistakeTwoTrue.TabStop = false;
             this.teamOneMistakeTwoTrue.Visible = false;
@@ -293,7 +293,7 @@
             this.teamOneMistakeThreeTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamOneMistakeThreeTrue.Location = new System.Drawing.Point(62, 666);
             this.teamOneMistakeThreeTrue.Name = "teamOneMistakeThreeTrue";
-            this.teamOneMistakeThreeTrue.Size = new System.Drawing.Size(231, 79);
+            this.teamOneMistakeThreeTrue.Size = new System.Drawing.Size(247, 118);
             this.teamOneMistakeThreeTrue.TabIndex = 13;
             this.teamOneMistakeThreeTrue.TabStop = false;
             this.teamOneMistakeThreeTrue.Visible = false;
@@ -309,7 +309,7 @@
             this.teamTwoMistakeOneTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamTwoMistakeOneTrue.Location = new System.Drawing.Point(984, 464);
             this.teamTwoMistakeOneTrue.Name = "teamTwoMistakeOneTrue";
-            this.teamTwoMistakeOneTrue.Size = new System.Drawing.Size(231, 79);
+            this.teamTwoMistakeOneTrue.Size = new System.Drawing.Size(247, 118);
             this.teamTwoMistakeOneTrue.TabIndex = 14;
             this.teamTwoMistakeOneTrue.TabStop = false;
             this.teamTwoMistakeOneTrue.Visible = false;
@@ -325,7 +325,7 @@
             this.teamTwoMistakeTwoTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamTwoMistakeTwoTrue.Location = new System.Drawing.Point(984, 563);
             this.teamTwoMistakeTwoTrue.Name = "teamTwoMistakeTwoTrue";
-            this.teamTwoMistakeTwoTrue.Size = new System.Drawing.Size(231, 79);
+            this.teamTwoMistakeTwoTrue.Size = new System.Drawing.Size(247, 118);
             this.teamTwoMistakeTwoTrue.TabIndex = 15;
             this.teamTwoMistakeTwoTrue.TabStop = false;
             this.teamTwoMistakeTwoTrue.Visible = false;
@@ -341,7 +341,7 @@
             this.teamTwoMistakeThreeTrue.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.teamTwoMistakeThreeTrue.Location = new System.Drawing.Point(984, 666);
             this.teamTwoMistakeThreeTrue.Name = "teamTwoMistakeThreeTrue";
-            this.teamTwoMistakeThreeTrue.Size = new System.Drawing.Size(231, 79);
+            this.teamTwoMistakeThreeTrue.Size = new System.Drawing.Size(247, 118);
             this.teamTwoMistakeThreeTrue.TabIndex = 16;
             this.teamTwoMistakeThreeTrue.TabStop = false;
             this.teamTwoMistakeThreeTrue.Visible = false;
@@ -358,7 +358,7 @@
             this.answerSixPB.Location = new System.Drawing.Point(369, 851);
             this.answerSixPB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.answerSixPB.Name = "answerSixPB";
-            this.answerSixPB.Size = new System.Drawing.Size(550, 98);
+            this.answerSixPB.Size = new System.Drawing.Size(566, 137);
             this.answerSixPB.TabIndex = 22;
             this.answerSixPB.TabStop = false;
             // 
@@ -373,7 +373,7 @@
             this.answerFivePB.Location = new System.Drawing.Point(369, 740);
             this.answerFivePB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.answerFivePB.Name = "answerFivePB";
-            this.answerFivePB.Size = new System.Drawing.Size(550, 98);
+            this.answerFivePB.Size = new System.Drawing.Size(566, 137);
             this.answerFivePB.TabIndex = 23;
             this.answerFivePB.TabStop = false;
             // 
@@ -388,7 +388,7 @@
             this.answerFourPB.Location = new System.Drawing.Point(369, 629);
             this.answerFourPB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.answerFourPB.Name = "answerFourPB";
-            this.answerFourPB.Size = new System.Drawing.Size(550, 98);
+            this.answerFourPB.Size = new System.Drawing.Size(566, 137);
             this.answerFourPB.TabIndex = 24;
             this.answerFourPB.TabStop = false;
             // 
@@ -403,7 +403,7 @@
             this.answerThreePB.Location = new System.Drawing.Point(369, 518);
             this.answerThreePB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.answerThreePB.Name = "answerThreePB";
-            this.answerThreePB.Size = new System.Drawing.Size(550, 98);
+            this.answerThreePB.Size = new System.Drawing.Size(566, 137);
             this.answerThreePB.TabIndex = 25;
             this.answerThreePB.TabStop = false;
             // 
@@ -418,7 +418,7 @@
             this.answerTwoPB.Location = new System.Drawing.Point(369, 407);
             this.answerTwoPB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.answerTwoPB.Name = "answerTwoPB";
-            this.answerTwoPB.Size = new System.Drawing.Size(550, 98);
+            this.answerTwoPB.Size = new System.Drawing.Size(566, 137);
             this.answerTwoPB.TabIndex = 26;
             this.answerTwoPB.TabStop = false;
             // 
@@ -433,7 +433,7 @@
             this.answerOnePB.Location = new System.Drawing.Point(369, 296);
             this.answerOnePB.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.answerOnePB.Name = "answerOnePB";
-            this.answerOnePB.Size = new System.Drawing.Size(550, 98);
+            this.answerOnePB.Size = new System.Drawing.Size(566, 137);
             this.answerOnePB.TabIndex = 27;
             this.answerOnePB.TabStop = false;
             // 
@@ -443,7 +443,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.label4.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label4.Location = new System.Drawing.Point(581, 115);
+            this.label4.Location = new System.Drawing.Point(600, 141);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(129, 76);
             this.label4.TabIndex = 28;
@@ -456,7 +456,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(49)))));
             this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label5.Location = new System.Drawing.Point(581, 191);
+            this.label5.Location = new System.Drawing.Point(600, 217);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(129, 25);
             this.label5.TabIndex = 29;
@@ -469,7 +469,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
             this.label6.Font = new System.Drawing.Font("Panton ExtraBold", 20F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label6.Location = new System.Drawing.Point(610, 216);
+            this.label6.Location = new System.Drawing.Point(629, 242);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(73, 41);
             this.label6.TabIndex = 30;
@@ -484,9 +484,9 @@
             this.answerOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerOne.Location = new System.Drawing.Point(373, 311);
+            this.answerOne.Location = new System.Drawing.Point(372, 330);
             this.answerOne.Name = "answerOne";
-            this.answerOne.Size = new System.Drawing.Size(449, 69);
+            this.answerOne.Size = new System.Drawing.Size(467, 69);
             this.answerOne.TabIndex = 31;
             this.answerOne.Text = "Какой-нибудь ответ";
             this.answerOne.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -499,9 +499,9 @@
             this.pointsOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsOne.Location = new System.Drawing.Point(828, 311);
+            this.pointsOne.Location = new System.Drawing.Point(844, 330);
             this.pointsOne.Name = "pointsOne";
-            this.pointsOne.Size = new System.Drawing.Size(79, 69);
+            this.pointsOne.Size = new System.Drawing.Size(86, 69);
             this.pointsOne.TabIndex = 32;
             this.pointsOne.Text = "10";
             this.pointsOne.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -514,9 +514,9 @@
             this.answerTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerTwo.Location = new System.Drawing.Point(373, 422);
+            this.answerTwo.Location = new System.Drawing.Point(373, 440);
             this.answerTwo.Name = "answerTwo";
-            this.answerTwo.Size = new System.Drawing.Size(449, 69);
+            this.answerTwo.Size = new System.Drawing.Size(467, 69);
             this.answerTwo.TabIndex = 31;
             this.answerTwo.Text = "Какой-нибудь ответ";
             this.answerTwo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -529,9 +529,9 @@
             this.pointsTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsTwo.Location = new System.Drawing.Point(828, 422);
+            this.pointsTwo.Location = new System.Drawing.Point(844, 440);
             this.pointsTwo.Name = "pointsTwo";
-            this.pointsTwo.Size = new System.Drawing.Size(79, 69);
+            this.pointsTwo.Size = new System.Drawing.Size(86, 69);
             this.pointsTwo.TabIndex = 32;
             this.pointsTwo.Text = "10";
             this.pointsTwo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -544,9 +544,9 @@
             this.answerThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerThree.Location = new System.Drawing.Point(373, 533);
+            this.answerThree.Location = new System.Drawing.Point(373, 552);
             this.answerThree.Name = "answerThree";
-            this.answerThree.Size = new System.Drawing.Size(449, 69);
+            this.answerThree.Size = new System.Drawing.Size(467, 69);
             this.answerThree.TabIndex = 31;
             this.answerThree.Text = "Какой-нибудь ответ";
             this.answerThree.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -559,9 +559,9 @@
             this.pointsThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsThree.Location = new System.Drawing.Point(828, 533);
+            this.pointsThree.Location = new System.Drawing.Point(844, 552);
             this.pointsThree.Name = "pointsThree";
-            this.pointsThree.Size = new System.Drawing.Size(79, 69);
+            this.pointsThree.Size = new System.Drawing.Size(86, 69);
             this.pointsThree.TabIndex = 32;
             this.pointsThree.Text = "10";
             this.pointsThree.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -574,9 +574,9 @@
             this.answerFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerFour.Location = new System.Drawing.Point(373, 644);
+            this.answerFour.Location = new System.Drawing.Point(372, 661);
             this.answerFour.Name = "answerFour";
-            this.answerFour.Size = new System.Drawing.Size(449, 69);
+            this.answerFour.Size = new System.Drawing.Size(467, 69);
             this.answerFour.TabIndex = 31;
             this.answerFour.Text = "Какой-нибудь ответ";
             this.answerFour.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -589,9 +589,9 @@
             this.pointsFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsFour.Location = new System.Drawing.Point(828, 644);
+            this.pointsFour.Location = new System.Drawing.Point(844, 661);
             this.pointsFour.Name = "pointsFour";
-            this.pointsFour.Size = new System.Drawing.Size(79, 69);
+            this.pointsFour.Size = new System.Drawing.Size(86, 69);
             this.pointsFour.TabIndex = 32;
             this.pointsFour.Text = "10";
             this.pointsFour.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -604,9 +604,9 @@
             this.answerFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerFive.Location = new System.Drawing.Point(373, 755);
+            this.answerFive.Location = new System.Drawing.Point(373, 772);
             this.answerFive.Name = "answerFive";
-            this.answerFive.Size = new System.Drawing.Size(449, 69);
+            this.answerFive.Size = new System.Drawing.Size(467, 69);
             this.answerFive.TabIndex = 31;
             this.answerFive.Text = "Какой-нибудь ответ";
             this.answerFive.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -619,9 +619,9 @@
             this.pointsFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsFive.Location = new System.Drawing.Point(828, 755);
+            this.pointsFive.Location = new System.Drawing.Point(844, 772);
             this.pointsFive.Name = "pointsFive";
-            this.pointsFive.Size = new System.Drawing.Size(79, 69);
+            this.pointsFive.Size = new System.Drawing.Size(86, 69);
             this.pointsFive.TabIndex = 32;
             this.pointsFive.Text = "10";
             this.pointsFive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -634,9 +634,9 @@
             this.answerSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.answerSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.answerSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.answerSix.Location = new System.Drawing.Point(373, 866);
+            this.answerSix.Location = new System.Drawing.Point(373, 884);
             this.answerSix.Name = "answerSix";
-            this.answerSix.Size = new System.Drawing.Size(449, 69);
+            this.answerSix.Size = new System.Drawing.Size(467, 69);
             this.answerSix.TabIndex = 31;
             this.answerSix.Text = "Какой-нибудь ответ";
             this.answerSix.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -649,9 +649,9 @@
             this.pointsSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
             this.pointsSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
             this.pointsSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.pointsSix.Location = new System.Drawing.Point(828, 866);
+            this.pointsSix.Location = new System.Drawing.Point(844, 884);
             this.pointsSix.Name = "pointsSix";
-            this.pointsSix.Size = new System.Drawing.Size(79, 69);
+            this.pointsSix.Size = new System.Drawing.Size(86, 69);
             this.pointsSix.TabIndex = 32;
             this.pointsSix.Text = "10";
             this.pointsSix.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -662,33 +662,21 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::_100to1.Properties.Resources.viewBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1264, 985);
+            this.ClientSize = new System.Drawing.Size(1280, 1024);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.teamOneNameLabel);
+            this.Controls.Add(this.logoPicture);
             this.Controls.Add(this.answerOnePB);
             this.Controls.Add(this.answerTwoPB);
             this.Controls.Add(this.answerThreePB);
             this.Controls.Add(this.answerFourPB);
             this.Controls.Add(this.answerFivePB);
             this.Controls.Add(this.answerSixPB);
-            this.Controls.Add(this.teamTwoMistakeThreeTrue);
-            this.Controls.Add(this.teamTwoMistakeTwoTrue);
-            this.Controls.Add(this.teamTwoMistakeOneTrue);
-            this.Controls.Add(this.teamOneMistakeThreeTrue);
-            this.Controls.Add(this.teamOneMistakeTwoTrue);
-            this.Controls.Add(this.teamOneMistakeOneTrue);
-            this.Controls.Add(this.teamTwoMistakeThree);
-            this.Controls.Add(this.teamTwoMistakeTwo);
-            this.Controls.Add(this.teamTwoMistakeOne);
-            this.Controls.Add(this.teamOneMistakeThree);
-            this.Controls.Add(this.teamOneMistakeTwo);
-            this.Controls.Add(this.teamOneMistakeOne);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.teamOneNameLabel);
-            this.Controls.Add(this.logoPicture);
             this.Controls.Add(this.answerOne);
             this.Controls.Add(this.pointsOne);
             this.Controls.Add(this.answerTwo);
@@ -701,14 +689,29 @@
             this.Controls.Add(this.pointsFive);
             this.Controls.Add(this.answerSix);
             this.Controls.Add(this.pointsSix);
+            this.Controls.Add(this.teamOneMistakeOneTrue);
+            this.Controls.Add(this.teamTwoMistakeOneTrue);
+            this.Controls.Add(this.teamTwoMistakeTwoTrue);
+            this.Controls.Add(this.teamTwoMistakeThreeTrue);
+            this.Controls.Add(this.teamOneMistakeTwoTrue);
+            this.Controls.Add(this.teamOneMistakeThreeTrue);
+            this.Controls.Add(this.teamTwoMistakeOne);
+            this.Controls.Add(this.teamTwoMistakeTwo);
+            this.Controls.Add(this.teamTwoMistakeThree);
+            this.Controls.Add(this.teamOneMistakeOne);
+            this.Controls.Add(this.teamOneMistakeTwo);
+            this.Controls.Add(this.teamOneMistakeThree);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(1280, 1024);
             this.MinimumSize = new System.Drawing.Size(1280, 1024);
             this.Name = "ViewForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "ViewForm";
             this.Load += new System.EventHandler(this.ViewForm_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ViewForm_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ViewForm_MouseMove);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ViewForm_MouseUp);
             ((System.ComponentModel.ISupportInitialize)(this.logoPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamOneMistakeOne)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamOneMistakeTwo)).EndInit();

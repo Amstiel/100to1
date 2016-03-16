@@ -73,7 +73,7 @@ namespace _100to1
         {
             if (fullScreenRadioButton.Checked)
             {
-                vf.FormBorderStyle = FormBorderStyle.None;
+                //vf.FormBorderStyle = FormBorderStyle.None;
             }
         }
 
@@ -81,7 +81,7 @@ namespace _100to1
         {
             if (notFullScreenRadioButton.Checked)
             {
-                vf.FormBorderStyle = FormBorderStyle.FixedSingle;
+                //vf.FormBorderStyle = FormBorderStyle.FixedSingle;
             }
         }
 

@@ -15,6 +15,7 @@ namespace _100to1
     {
         public ArrayList teamsMistakes = new ArrayList(); //Костыль, но ничего лучше я не придумал)
         public ArrayList AnswersPB = new ArrayList();
+        public Boolean mouseDown;
 
         public ViewForm()
         {
@@ -48,7 +49,7 @@ namespace _100to1
 
         private void ViewForm_Load(object sender, EventArgs e)
         {
-
+             
         }
 
         private void teamOneMistakeTwoTrue_Click(object sender, EventArgs e)
@@ -109,6 +110,27 @@ namespace _100to1
         private void teamTwoMistakeOne_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void ViewForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            mouseDown = true;
+            this.Top = Cursor.Position.Y;
+            this.Left = Cursor.Position.X;
+        }
+
+        private void ViewForm_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (mouseDown)
+            {
+                this.Top = Cursor.Position.Y;
+                this.Left = Cursor.Position.X;
+            }
+        }
+
+        private void ViewForm_MouseUp(object sender, MouseEventArgs e)
+        {
+            mouseDown = false;
         }
     }
 }
