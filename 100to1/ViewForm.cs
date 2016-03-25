@@ -16,6 +16,7 @@ namespace _100to1
         public ArrayList teamsMistakes = new ArrayList(); //Костыль, но ничего лучше я не придумал)
         public ArrayList AnswersPB = new ArrayList();
         public Boolean mouseDown;
+        int x, y;
 
         public ViewForm()
         {
@@ -115,16 +116,18 @@ namespace _100to1
         private void ViewForm_MouseDown(object sender, MouseEventArgs e)
         {
             mouseDown = true;
-            this.Top = Cursor.Position.Y;
-            this.Left = Cursor.Position.X;
+            x = Cursor.Position.X;
+            y = Cursor.Position.Y;
         }
 
         private void ViewForm_MouseMove(object sender, MouseEventArgs e)
         {
             if (mouseDown)
             {
-                this.Top = Cursor.Position.Y;
-                this.Left = Cursor.Position.X;
+                this.Top -= y - Cursor.Position.Y;
+                this.Left -= x - Cursor.Position.X;
+                x = Cursor.Position.X;
+                y = Cursor.Position.Y;
             }
         }
 
