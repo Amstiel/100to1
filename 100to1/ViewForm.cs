@@ -15,6 +15,7 @@ namespace _100to1
     {
         public ArrayList teamsMistakes = new ArrayList(); //Костыль, но ничего лучше я не придумал)
         public ArrayList AnswersPB = new ArrayList();
+        public ArrayList AnswersLB = new ArrayList();
         public Boolean mouseDown;
         int x, y;
 
@@ -46,6 +47,13 @@ namespace _100to1
             AnswersPB.Add(answerFourPB);
             AnswersPB.Add(answerFivePB);
             AnswersPB.Add(answerSixPB);
+
+            AnswersLB.Add(answerOne);
+            AnswersLB.Add(answerTwo);
+            AnswersLB.Add(answerThree);
+            AnswersLB.Add(answerFour);
+            AnswersLB.Add(answerFive);
+            AnswersLB.Add(answerSix);
         }
 
         private void ViewForm_Load(object sender, EventArgs e)

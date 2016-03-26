@@ -30,9 +30,9 @@
         {
             this.logoPicture = new System.Windows.Forms.PictureBox();
             this.teamOneNameLabel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.teamOnePointsLabel = new System.Windows.Forms.Label();
+            this.teamTwoPointsLabel = new System.Windows.Forms.Label();
+            this.teamTwoNameLabel = new System.Windows.Forms.Label();
             this.teamOneMistakeOne = new System.Windows.Forms.PictureBox();
             this.teamOneMistakeTwo = new System.Windows.Forms.PictureBox();
             this.teamOneMistakeThree = new System.Windows.Forms.PictureBox();
@@ -51,9 +51,9 @@
             this.answerThreePB = new System.Windows.Forms.PictureBox();
             this.answerTwoPB = new System.Windows.Forms.PictureBox();
             this.answerOnePB = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.allPointsLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.roundNumberLabel = new System.Windows.Forms.Label();
             this.answerOne = new System.Windows.Forms.Label();
             this.pointsOne = new System.Windows.Forms.Label();
             this.answerTwo = new System.Windows.Forms.Label();
@@ -106,7 +106,6 @@
             this.teamOneNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.teamOneNameLabel.AutoSize = true;
             this.teamOneNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.teamOneNameLabel.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamOneNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
@@ -116,50 +115,51 @@
             this.teamOneNameLabel.TabIndex = 1;
             this.teamOneNameLabel.Text = "матфак";
             // 
-            // label1
+            // teamOnePointsLabel
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.teamOnePointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label1.Image = global::_100to1.Properties.Resources.ScoresBackground;
-            this.label1.Location = new System.Drawing.Point(92, 114);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 136);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "1234";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.teamOnePointsLabel.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamOnePointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
+            this.teamOnePointsLabel.Image = global::_100to1.Properties.Resources.ScoresBackground;
+            this.teamOnePointsLabel.Location = new System.Drawing.Point(92, 114);
+            this.teamOnePointsLabel.Name = "teamOnePointsLabel";
+            this.teamOnePointsLabel.Size = new System.Drawing.Size(184, 136);
+            this.teamOnePointsLabel.TabIndex = 2;
+            this.teamOnePointsLabel.Text = "1234";
+            this.teamOnePointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // teamTwoPointsLabel
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.teamTwoPointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label2.Image = global::_100to1.Properties.Resources.ScoresBackground;
-            this.label2.Location = new System.Drawing.Point(1018, 114);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(184, 136);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "1234";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.teamTwoPointsLabel.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamTwoPointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
+            this.teamTwoPointsLabel.Image = global::_100to1.Properties.Resources.ScoresBackground;
+            this.teamTwoPointsLabel.Location = new System.Drawing.Point(1018, 114);
+            this.teamTwoPointsLabel.Name = "teamTwoPointsLabel";
+            this.teamTwoPointsLabel.Size = new System.Drawing.Size(184, 136);
+            this.teamTwoPointsLabel.TabIndex = 4;
+            this.teamTwoPointsLabel.Text = "1234";
+            this.teamTwoPointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // teamTwoNameLabel
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.teamTwoNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
-            this.label3.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label3.Location = new System.Drawing.Point(1041, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 41);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "матфак";
+            this.teamTwoNameLabel.AutoSize = true;
+            this.teamTwoNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
+            this.teamTwoNameLabel.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teamTwoNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
+            this.teamTwoNameLabel.Location = new System.Drawing.Point(1041, 73);
+            this.teamTwoNameLabel.Name = "teamTwoNameLabel";
+            this.teamTwoNameLabel.Size = new System.Drawing.Size(133, 41);
+            this.teamTwoNameLabel.TabIndex = 3;
+            this.teamTwoNameLabel.Text = "матфак";
+            this.teamTwoNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // teamOneMistakeOne
             // 
@@ -437,18 +437,18 @@
             this.answerOnePB.TabIndex = 27;
             this.answerOnePB.TabStop = false;
             // 
-            // label4
+            // allPointsLabel
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.label4.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label4.Location = new System.Drawing.Point(579, 127);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(129, 76);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "1";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.allPointsLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.allPointsLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
+            this.allPointsLabel.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold);
+            this.allPointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
+            this.allPointsLabel.Location = new System.Drawing.Point(546, 127);
+            this.allPointsLabel.Name = "allPointsLabel";
+            this.allPointsLabel.Size = new System.Drawing.Size(200, 76);
+            this.allPointsLabel.TabIndex = 28;
+            this.allPointsLabel.Text = "1";
+            this.allPointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -456,25 +456,25 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(49)))));
             this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label5.Location = new System.Drawing.Point(579, 203);
+            this.label5.Location = new System.Drawing.Point(579, 225);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(129, 25);
             this.label5.TabIndex = 29;
             this.label5.Text = "раунд";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // roundNumberLabel
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
-            this.label6.Font = new System.Drawing.Font("Panton ExtraBold", 20F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.label6.Location = new System.Drawing.Point(608, 228);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(73, 41);
-            this.label6.TabIndex = 30;
-            this.label6.Text = "14";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.roundNumberLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.roundNumberLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
+            this.roundNumberLabel.Font = new System.Drawing.Font("Panton ExtraBold", 20F, System.Drawing.FontStyle.Bold);
+            this.roundNumberLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
+            this.roundNumberLabel.Location = new System.Drawing.Point(608, 250);
+            this.roundNumberLabel.Name = "roundNumberLabel";
+            this.roundNumberLabel.Size = new System.Drawing.Size(73, 41);
+            this.roundNumberLabel.TabIndex = 30;
+            this.roundNumberLabel.Text = "14";
+            this.roundNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answerOne
             // 
@@ -675,32 +675,14 @@
             this.BackgroundImage = global::_100to1.Properties.Resources.viewBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 1024);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.roundNumberLabel);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.allPointsLabel);
+            this.Controls.Add(this.teamTwoPointsLabel);
+            this.Controls.Add(this.teamTwoNameLabel);
+            this.Controls.Add(this.teamOnePointsLabel);
             this.Controls.Add(this.teamOneNameLabel);
             this.Controls.Add(this.logoPicture);
-            this.Controls.Add(this.answerOnePB);
-            this.Controls.Add(this.answerTwoPB);
-            this.Controls.Add(this.answerThreePB);
-            this.Controls.Add(this.answerFourPB);
-            this.Controls.Add(this.answerFivePB);
-            this.Controls.Add(this.answerSixPB);
-            this.Controls.Add(this.answerOne);
-            this.Controls.Add(this.pointsOne);
-            this.Controls.Add(this.answerTwo);
-            this.Controls.Add(this.pointsTwo);
-            this.Controls.Add(this.answerThree);
-            this.Controls.Add(this.pointsThree);
-            this.Controls.Add(this.answerFour);
-            this.Controls.Add(this.pointsFour);
-            this.Controls.Add(this.answerFive);
-            this.Controls.Add(this.pointsFive);
-            this.Controls.Add(this.answerSix);
-            this.Controls.Add(this.pointsSix);
             this.Controls.Add(this.teamOneMistakeOneTrue);
             this.Controls.Add(this.teamTwoMistakeOneTrue);
             this.Controls.Add(this.teamTwoMistakeTwoTrue);
@@ -713,6 +695,24 @@
             this.Controls.Add(this.teamOneMistakeOne);
             this.Controls.Add(this.teamOneMistakeTwo);
             this.Controls.Add(this.teamOneMistakeThree);
+            this.Controls.Add(this.answerOnePB);
+            this.Controls.Add(this.answerOne);
+            this.Controls.Add(this.pointsOne);
+            this.Controls.Add(this.answerTwoPB);
+            this.Controls.Add(this.answerTwo);
+            this.Controls.Add(this.pointsTwo);
+            this.Controls.Add(this.answerThreePB);
+            this.Controls.Add(this.answerThree);
+            this.Controls.Add(this.pointsThree);
+            this.Controls.Add(this.answerFourPB);
+            this.Controls.Add(this.answerFour);
+            this.Controls.Add(this.pointsFour);
+            this.Controls.Add(this.answerFivePB);
+            this.Controls.Add(this.answerFive);
+            this.Controls.Add(this.pointsFive);
+            this.Controls.Add(this.answerSixPB);
+            this.Controls.Add(this.answerSix);
+            this.Controls.Add(this.pointsSix);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(1280, 1024);
@@ -751,10 +751,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox logoPicture;
-        private System.Windows.Forms.Label teamOneNameLabel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label teamOneNameLabel;
         private System.Windows.Forms.PictureBox teamOneMistakeOne;
         private System.Windows.Forms.PictureBox teamOneMistakeTwo;
         private System.Windows.Forms.PictureBox teamOneMistakeThree;
@@ -773,20 +770,23 @@
         private System.Windows.Forms.PictureBox answerThreePB;
         private System.Windows.Forms.PictureBox answerTwoPB;
         private System.Windows.Forms.PictureBox answerOnePB;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label answerOne;
-        private System.Windows.Forms.Label pointsOne;
-        private System.Windows.Forms.Label answerTwo;
-        private System.Windows.Forms.Label pointsTwo;
-        private System.Windows.Forms.Label answerThree;
-        private System.Windows.Forms.Label pointsThree;
-        private System.Windows.Forms.Label answerFour;
-        private System.Windows.Forms.Label pointsFour;
-        private System.Windows.Forms.Label answerFive;
-        private System.Windows.Forms.Label pointsFive;
-        private System.Windows.Forms.Label answerSix;
-        private System.Windows.Forms.Label pointsSix;
+        public System.Windows.Forms.Label teamTwoNameLabel;
+        public System.Windows.Forms.Label teamOnePointsLabel;
+        public System.Windows.Forms.Label teamTwoPointsLabel;
+        public System.Windows.Forms.Label allPointsLabel;
+        public System.Windows.Forms.Label roundNumberLabel;
+        public System.Windows.Forms.Label answerOne;
+        public System.Windows.Forms.Label pointsOne;
+        public System.Windows.Forms.Label answerTwo;
+        public System.Windows.Forms.Label pointsTwo;
+        public System.Windows.Forms.Label answerThree;
+        public System.Windows.Forms.Label pointsThree;
+        public System.Windows.Forms.Label answerFour;
+        public System.Windows.Forms.Label pointsFour;
+        public System.Windows.Forms.Label answerFive;
+        public System.Windows.Forms.Label pointsFive;
+        public System.Windows.Forms.Label answerSix;
+        public System.Windows.Forms.Label pointsSix;
     }
 }

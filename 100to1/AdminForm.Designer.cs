@@ -90,6 +90,7 @@
             this.answer1TextBox.ReadOnly = true;
             this.answer1TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer1TextBox.TabIndex = 100;
+            this.answer1TextBox.Tag = "answer";
             this.answer1TextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer1TextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             this.answer1TextBox.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.textBox_DoubleClick);
@@ -101,6 +102,7 @@
             this.answer2TextBox.ReadOnly = true;
             this.answer2TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer2TextBox.TabIndex = 1;
+            this.answer2TextBox.Tag = "answer";
             this.answer2TextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer2TextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -111,6 +113,7 @@
             this.answer3TextBox.ReadOnly = true;
             this.answer3TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer3TextBox.TabIndex = 2;
+            this.answer3TextBox.Tag = "answer";
             this.answer3TextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer3TextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -121,6 +124,7 @@
             this.answer4TextBox.ReadOnly = true;
             this.answer4TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer4TextBox.TabIndex = 3;
+            this.answer4TextBox.Tag = "answer";
             this.answer4TextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer4TextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -131,6 +135,7 @@
             this.answer5TextBox.ReadOnly = true;
             this.answer5TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer5TextBox.TabIndex = 4;
+            this.answer5TextBox.Tag = "answer";
             this.answer5TextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer5TextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -141,6 +146,7 @@
             this.answer6TextBox.ReadOnly = true;
             this.answer6TextBox.Size = new System.Drawing.Size(289, 20);
             this.answer6TextBox.TabIndex = 5;
+            this.answer6TextBox.Tag = "answer";
             this.answer6TextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer6TextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -206,6 +212,8 @@
             this.firstTeamNameTextBox.ReadOnly = true;
             this.firstTeamNameTextBox.Size = new System.Drawing.Size(120, 20);
             this.firstTeamNameTextBox.TabIndex = 12;
+            this.firstTeamNameTextBox.Text = "матфак";
+            this.firstTeamNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.firstTeamNameTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.firstTeamNameTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -216,6 +224,8 @@
             this.secondTeamNameTextBox.ReadOnly = true;
             this.secondTeamNameTextBox.Size = new System.Drawing.Size(120, 20);
             this.secondTeamNameTextBox.TabIndex = 13;
+            this.secondTeamNameTextBox.Text = "матфак";
+            this.secondTeamNameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.secondTeamNameTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.secondTeamNameTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -240,22 +250,26 @@
             // firstTeamPointsTextBox
             // 
             this.firstTeamPointsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.firstTeamPointsTextBox.Location = new System.Drawing.Point(110, 188);
+            this.firstTeamPointsTextBox.Location = new System.Drawing.Point(97, 188);
             this.firstTeamPointsTextBox.Name = "firstTeamPointsTextBox";
             this.firstTeamPointsTextBox.ReadOnly = true;
-            this.firstTeamPointsTextBox.Size = new System.Drawing.Size(40, 38);
+            this.firstTeamPointsTextBox.Size = new System.Drawing.Size(65, 38);
             this.firstTeamPointsTextBox.TabIndex = 16;
+            this.firstTeamPointsTextBox.Text = "1234";
+            this.firstTeamPointsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.firstTeamPointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.firstTeamPointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
             // secondTeamPointsTextBox
             // 
             this.secondTeamPointsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.secondTeamPointsTextBox.Location = new System.Drawing.Point(807, 188);
+            this.secondTeamPointsTextBox.Location = new System.Drawing.Point(797, 188);
             this.secondTeamPointsTextBox.Name = "secondTeamPointsTextBox";
             this.secondTeamPointsTextBox.ReadOnly = true;
-            this.secondTeamPointsTextBox.Size = new System.Drawing.Size(40, 38);
+            this.secondTeamPointsTextBox.Size = new System.Drawing.Size(69, 38);
             this.secondTeamPointsTextBox.TabIndex = 17;
+            this.secondTeamPointsTextBox.Text = "1234";
+            this.secondTeamPointsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.secondTeamPointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.secondTeamPointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -285,6 +299,7 @@
             this.confirmBtn.TabIndex = 20;
             this.confirmBtn.Text = "Следующий раунд";
             this.confirmBtn.UseVisualStyleBackColor = true;
+            this.confirmBtn.Click += new System.EventHandler(this.confirmBtn_Click);
             // 
             // firstTeamMistakeOne
             // 
@@ -438,6 +453,7 @@
             this.allPointsTextBox.ReadOnly = true;
             this.allPointsTextBox.Size = new System.Drawing.Size(68, 38);
             this.allPointsTextBox.TabIndex = 34;
+            this.allPointsTextBox.TextChanged += new System.EventHandler(this.allPointsTextBox_TextChanged);
             this.allPointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.allPointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -457,6 +473,7 @@
             this.answer1PointsTextBox.ReadOnly = true;
             this.answer1PointsTextBox.Size = new System.Drawing.Size(32, 20);
             this.answer1PointsTextBox.TabIndex = 36;
+            this.answer1PointsTextBox.Tag = "score";
             this.answer1PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer1PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -467,6 +484,7 @@
             this.answer2PointsTextBox.ReadOnly = true;
             this.answer2PointsTextBox.Size = new System.Drawing.Size(32, 20);
             this.answer2PointsTextBox.TabIndex = 37;
+            this.answer2PointsTextBox.Tag = "score";
             this.answer2PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer2PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -477,6 +495,7 @@
             this.answer3PointsTextBox.ReadOnly = true;
             this.answer3PointsTextBox.Size = new System.Drawing.Size(32, 20);
             this.answer3PointsTextBox.TabIndex = 38;
+            this.answer3PointsTextBox.Tag = "score";
             this.answer3PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer3PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -487,6 +506,7 @@
             this.answer4PointsTextBox.ReadOnly = true;
             this.answer4PointsTextBox.Size = new System.Drawing.Size(32, 20);
             this.answer4PointsTextBox.TabIndex = 39;
+            this.answer4PointsTextBox.Tag = "score";
             this.answer4PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer4PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -497,6 +517,7 @@
             this.answer5PointsTextBox.ReadOnly = true;
             this.answer5PointsTextBox.Size = new System.Drawing.Size(32, 20);
             this.answer5PointsTextBox.TabIndex = 40;
+            this.answer5PointsTextBox.Tag = "score";
             this.answer5PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer5PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
@@ -507,6 +528,7 @@
             this.answer6PointsTextBox.ReadOnly = true;
             this.answer6PointsTextBox.Size = new System.Drawing.Size(32, 20);
             this.answer6PointsTextBox.TabIndex = 41;
+            this.answer6PointsTextBox.Tag = "score";
             this.answer6PointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.answer6PointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 

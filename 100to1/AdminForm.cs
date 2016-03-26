@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,10 @@ namespace _100to1
     {
         public string basePath = @"C:\Works\test.txt"; // Пусть к базе
         public ViewForm vf;
+        public ArrayList answersAdmin = new ArrayList();
+        public ArrayList answersScoreAdmin = new ArrayList();
+        public ArrayList answersCheckedAdmin = new ArrayList();
+        int allPoints, teamOnePoints, teamTwoPoints;
         int roundCount = 1;
         public AdminForm()
         {
@@ -22,8 +27,10 @@ namespace _100to1
             vf = new ViewForm();
             vf.Show();
             Base.loadBase(basePath);
+            answersInit();
+            answersScoreInit();
             comboBoxInit();
-            questionInit(0);
+            //questionInit(0);
         }
 
         // Заполнение комбобокса
@@ -35,24 +42,42 @@ namespace _100to1
             }
             questionNameComboBox.SelectedIndex = 0; // Первый вопрос по умолчанию, потом переделать.
         }
-
-
-        // При вызове этой функции - бежим по массиву, связанному с выбранным вопросом и заполняем ответы
-        public void questionInit(int id)
+        
+        public void sendToView(object Sender)
         {
-            answer1TextBox.Text = Base.answers[0][id].ToString(); // Прости за эту стену текста, но мне было лень делать массив)
-            answer2TextBox.Text = Base.answers[1][id].ToString(); // Да и всего 6 строчек, не сильно и говнокод
-            answer3TextBox.Text = Base.answers[2][id].ToString();
-            answer4TextBox.Text = Base.answers[3][id].ToString();
-            answer5TextBox.Text = Base.answers[4][id].ToString();
-            answer6TextBox.Text = Base.answers[5][id].ToString();
+            switch (((TextBox)Sender).Name)
+            {
+                case "firstTeamNameTextBox":
+                    vf.teamOneNameLabel.Text = ((TextBox)Sender).Text;
+                    break;
+                case "secondTeamNameTextBox":
+                    vf.teamTwoNameLabel.Text = ((TextBox)Sender).Text;
+                    break;
+                case "firstTeamPointsTextBox":
+                    vf.teamOnePointsLabel.Text = ((TextBox)Sender).Text;
+                    break;
+                case "secondTeamPointsTextBox":
+                    vf.teamTwoPointsLabel.Text = ((TextBox)Sender).Text;
+                    break;
+                case "allPointsTextBox":
+                    vf.allPointsLabel.Text = ((TextBox)Sender).Text;
+                    break;
+                case "roundNumberTB":
+                    vf.roundNumberLabel.Text = ((TextBox)Sender).Text;
+                    break;
+            }
+            if (((TextBox)Sender).Tag == "answer")
+            {
+                updateAnswers();
+            }
+        }
 
-            answer1PointsTextBox.Text = Base.score[0][id].ToString(); //Ладно, переписать это в виде цикла было бы нормальной идеей)
-            answer2PointsTextBox.Text = Base.score[1][id].ToString();
-            answer3PointsTextBox.Text = Base.score[2][id].ToString();
-            answer4PointsTextBox.Text = Base.score[3][id].ToString();
-            answer5PointsTextBox.Text = Base.score[4][id].ToString();
-            answer6PointsTextBox.Text = Base.score[5][id].ToString();
+        public void updateAnswers()
+        {
+            for (int i = 0; i < answersAdmin.Count; i++)
+            {
+                ((Label)vf.AnswersLB[i]).Text = ((TextBox)answersAdmin[i]).Text;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -95,7 +120,6 @@ namespace _100to1
         private void textBox_DoubleClick(object sender, EventArgs e)
         {
             ((TextBox)sender).ReadOnly = false;
-            //MessageBox.Show("help");
         }
 
         private void textBox_KeyUp(object sender, KeyEventArgs e)
@@ -103,7 +127,7 @@ namespace _100to1
             if(e.KeyCode == Keys.Enter)
             {
                 ((TextBox)sender).ReadOnly = true;
-                //Добавить функцию отправки данных на ViewForm
+                sendToView(sender);
             }
         }
 
@@ -133,6 +157,48 @@ namespace _100to1
             {
                 SoundPlayer a = new SoundPlayer(@"..\..\audio\line_open.wav");
                 a.Play();
+            }
+        }
+
+        private void allPointsTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void confirmBtn_Click(object sender, EventArgs e)
+        {
+            teamOnePoints += allPoints;
+        }
+
+        //Инициализация и добавление элементов в массив, для более удобной работы с ними
+
+        public void answersInit()
+        {
+            answersAdmin.Add(answer1TextBox);
+            answersAdmin.Add(answer2TextBox);
+            answersAdmin.Add(answer3TextBox);
+            answersAdmin.Add(answer4TextBox);
+            answersAdmin.Add(answer5TextBox);
+            answersAdmin.Add(answer6TextBox);
+        }
+
+        public void answersScoreInit()
+        {
+            answersScoreAdmin.Add(answer1PointsTextBox);
+            answersScoreAdmin.Add(answer2PointsTextBox);
+            answersScoreAdmin.Add(answer3PointsTextBox);
+            answersScoreAdmin.Add(answer4PointsTextBox);
+            answersScoreAdmin.Add(answer5PointsTextBox);
+            answersScoreAdmin.Add(answer6PointsTextBox);
+        }
+        // При вызове этой функции - бежим по массиву, связанному с выбранным вопросом и заполняем ответы
+        public void questionInit(int id)
+        {
+            for (int i = 0; i < answersAdmin.Count; i++)
+            {
+                ((TextBox)answersAdmin[i]).Text = Base.answers[i][id].ToString();
+                ((TextBox)answersScoreAdmin[i]).Text = Base.score[i][id].ToString();
+
             }
         }
     }
