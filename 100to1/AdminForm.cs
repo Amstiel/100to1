@@ -19,8 +19,9 @@ namespace _100to1
         public ArrayList answersAdmin = new ArrayList();
         public ArrayList answersScoreAdmin = new ArrayList();
         public ArrayList answersCheckedAdmin = new ArrayList();
-        int allPoints = 0, teamOnePoints = 0, teamTwoPoints = 0;
+        int allPoints = 0, firstTeamScores = 0, secondTeamScores = 0;
         int currentRound = 1;
+        public Boolean firstTeamTurn, secondTeamTurn;
         public AdminForm()
         {
             InitializeComponent();
@@ -55,17 +56,16 @@ namespace _100to1
                     vf.teamTwoNameLabel.Text = ((TextBox)Sender).Text;
                     break;
                 case "firstTeamPointsTextBox":
-                    vf.teamOnePointsLabel.Text = ((TextBox)Sender).Text;
+                    setFirstTeamScores(Convert.ToInt32(((TextBox)Sender).Text));
                     break;
                 case "secondTeamPointsTextBox":
-                    vf.teamTwoPointsLabel.Text = ((TextBox)Sender).Text;
+                    setSecondTeamScores(Convert.ToInt32(((TextBox)Sender).Text));
                     break;
                 case "allPointsTextBox":
-                    vf.allPointsLabel.Text = ((TextBox)Sender).Text;
+                    setRoundScores(Convert.ToInt32(((TextBox)Sender).Text));
                     break;
                 case "roundNumberTB":
-                    vf.roundNumberLabel.Text = ((TextBox)Sender).Text;
-                    currentRound = Convert.ToInt32(((TextBox)Sender).Text);
+                    setRound(Convert.ToInt32(((TextBox)Sender).Text));
                     break;
             }
             if (((TextBox)Sender).Tag == "answer")
@@ -96,8 +96,30 @@ namespace _100to1
 
         public void setRoundScores(int scores)
         {
+            allPointsTextBox.Text = scores.ToString();
             allPoints = scores;
             vf.allPointsLabel.Text = allPoints.ToString();
+        }
+
+        public void setFirstTeamScores(int scores)
+        {
+            firstTeamPointsTextBox.Text = scores.ToString();
+            firstTeamScores = scores;
+            vf.teamOnePointsLabel.Text = firstTeamScores.ToString();
+        }
+
+        public void setSecondTeamScores(int scores)
+        {
+            secondTeamPointsTextBox.Text = scores.ToString();
+            secondTeamScores = scores;
+            vf.teamTwoPointsLabel.Text = secondTeamScores.ToString();
+        }
+
+        public void setRound(int round)
+        {
+            roundNumberTB.Text = round.ToString();
+            vf.roundNumberLabel.Text = round.ToString();
+            currentRound = round;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -115,19 +137,21 @@ namespace _100to1
 
         }
 
-        private void fullScreenRadioButton_CheckedChanged(object sender, EventArgs e)
+        private void firstTeamRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             if (firstTeamRadioButton.Checked)
             {
-                //vf.FormBorderStyle = FormBorderStyle.None;
+                firstTeamTurn = true;
+                secondTeamTurn = false;
             }
         }
 
-        private void notFullScreenRadioButton_CheckedChanged(object sender, EventArgs e)
+        private void secondTeamRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             if (secondTeamRadioButton.Checked)
             {
-                //vf.FormBorderStyle = FormBorderStyle.FixedSingle;
+                firstTeamTurn = false;
+                secondTeamTurn = true;
             }
         }
 
@@ -172,6 +196,10 @@ namespace _100to1
         private void answerCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(((CheckBox)sender).Tag);
+            if (!((CheckBox)sender).Checked)
+            {
+                setRoundScores(allPoints + Convert.ToInt32(((TextBox)answersScoreAdmin[id]).Text));
+            }
             ((PictureBox)vf.AnswersPB[id]).Visible = (((CheckBox)sender).Checked);
             if (!((CheckBox)sender).Checked)
             {
@@ -187,7 +215,18 @@ namespace _100to1
 
         private void nextRoundBtn_Click(object sender, EventArgs e)
         {
-            teamOnePoints += allPoints;
+            if (firstTeamTurn)
+            {
+                setFirstTeamScores(allPoints + firstTeamScores);
+                setSecondTeamScores(0);
+            }
+            else
+            {
+                setSecondTeamScores(allPoints + firstTeamScores);
+                setFirstTeamScores(0);
+            }
+            setRoundScores(0);
+            setRound(++currentRound);
         }
 
         //Инициализация и добавление элементов в массив, для более удобной работы с ними

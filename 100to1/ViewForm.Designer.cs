@@ -127,7 +127,7 @@
             this.teamOnePointsLabel.Name = "teamOnePointsLabel";
             this.teamOnePointsLabel.Size = new System.Drawing.Size(184, 136);
             this.teamOnePointsLabel.TabIndex = 2;
-            this.teamOnePointsLabel.Text = "1234";
+            this.teamOnePointsLabel.Text = "0";
             this.teamOnePointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // teamTwoPointsLabel
@@ -142,7 +142,7 @@
             this.teamTwoPointsLabel.Name = "teamTwoPointsLabel";
             this.teamTwoPointsLabel.Size = new System.Drawing.Size(184, 136);
             this.teamTwoPointsLabel.TabIndex = 4;
-            this.teamTwoPointsLabel.Text = "1234";
+            this.teamTwoPointsLabel.Text = "0";
             this.teamTwoPointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // teamTwoNameLabel
@@ -447,7 +447,7 @@
             this.allPointsLabel.Name = "allPointsLabel";
             this.allPointsLabel.Size = new System.Drawing.Size(200, 76);
             this.allPointsLabel.TabIndex = 28;
-            this.allPointsLabel.Text = "1";
+            this.allPointsLabel.Text = "0";
             this.allPointsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5

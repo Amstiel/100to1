@@ -254,7 +254,7 @@
             this.firstTeamPointsTextBox.ReadOnly = true;
             this.firstTeamPointsTextBox.Size = new System.Drawing.Size(65, 38);
             this.firstTeamPointsTextBox.TabIndex = 16;
-            this.firstTeamPointsTextBox.Text = "1234";
+            this.firstTeamPointsTextBox.Text = "0";
             this.firstTeamPointsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.firstTeamPointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.firstTeamPointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
@@ -267,7 +267,7 @@
             this.secondTeamPointsTextBox.ReadOnly = true;
             this.secondTeamPointsTextBox.Size = new System.Drawing.Size(69, 38);
             this.secondTeamPointsTextBox.TabIndex = 17;
-            this.secondTeamPointsTextBox.Text = "1234";
+            this.secondTeamPointsTextBox.Text = "0";
             this.secondTeamPointsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.secondTeamPointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.secondTeamPointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
@@ -420,7 +420,7 @@
             this.firstTeamRadioButton.TabStop = true;
             this.firstTeamRadioButton.Text = "Ход первой команды";
             this.firstTeamRadioButton.UseVisualStyleBackColor = true;
-            this.firstTeamRadioButton.CheckedChanged += new System.EventHandler(this.fullScreenRadioButton_CheckedChanged);
+            this.firstTeamRadioButton.CheckedChanged += new System.EventHandler(this.firstTeamRadioButton_CheckedChanged);
             // 
             // secondTeamRadioButton
             // 
@@ -433,7 +433,7 @@
             this.secondTeamRadioButton.TabStop = true;
             this.secondTeamRadioButton.Text = "Ход второй команды";
             this.secondTeamRadioButton.UseVisualStyleBackColor = true;
-            this.secondTeamRadioButton.CheckedChanged += new System.EventHandler(this.notFullScreenRadioButton_CheckedChanged);
+            this.secondTeamRadioButton.CheckedChanged += new System.EventHandler(this.secondTeamRadioButton_CheckedChanged);
             // 
             // allPointsTextBox
             // 
