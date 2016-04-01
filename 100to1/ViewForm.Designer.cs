@@ -473,8 +473,9 @@
             this.roundNumberLabel.Name = "roundNumberLabel";
             this.roundNumberLabel.Size = new System.Drawing.Size(73, 41);
             this.roundNumberLabel.TabIndex = 30;
-            this.roundNumberLabel.Text = "14";
+            this.roundNumberLabel.Text = "1";
             this.roundNumberLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.roundNumberLabel.Click += new System.EventHandler(this.roundNumberLabel_Click);
             // 
             // answerOne
             // 

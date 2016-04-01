@@ -19,8 +19,8 @@ namespace _100to1
         public ArrayList answersAdmin = new ArrayList();
         public ArrayList answersScoreAdmin = new ArrayList();
         public ArrayList answersCheckedAdmin = new ArrayList();
-        int allPoints, teamOnePoints, teamTwoPoints;
-        int roundCount = 1;
+        int allPoints = 0, teamOnePoints = 0, teamTwoPoints = 0;
+        int currentRound = 1;
         public AdminForm()
         {
             InitializeComponent();
@@ -30,7 +30,8 @@ namespace _100to1
             answersInit();
             answersScoreInit();
             comboBoxInit();
-            //questionInit(0);
+            questionInit(0);
+            setRoundScores(0);
         }
 
         // Заполнение комбобокса
@@ -64,11 +65,16 @@ namespace _100to1
                     break;
                 case "roundNumberTB":
                     vf.roundNumberLabel.Text = ((TextBox)Sender).Text;
+                    currentRound = Convert.ToInt32(((TextBox)Sender).Text);
                     break;
             }
             if (((TextBox)Sender).Tag == "answer")
             {
                 updateAnswers();
+            }
+            if (((TextBox)Sender).Tag == "score")
+            {
+                updateScores();
             }
         }
 
@@ -78,6 +84,20 @@ namespace _100to1
             {
                 ((Label)vf.AnswersLB[i]).Text = ((TextBox)answersAdmin[i]).Text;
             }
+        }
+
+        public void updateScores()
+        {
+            for (int i = 0; i < answersScoreAdmin.Count; i++)
+            {
+                ((Label)vf.AnswersScores[i]).Text = ((TextBox)answersScoreAdmin[i]).Text;
+            }
+        }
+
+        public void setRoundScores(int scores)
+        {
+            allPoints = scores;
+            vf.allPointsLabel.Text = allPoints.ToString();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -97,7 +117,7 @@ namespace _100to1
 
         private void fullScreenRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if (fullScreenRadioButton.Checked)
+            if (firstTeamRadioButton.Checked)
             {
                 //vf.FormBorderStyle = FormBorderStyle.None;
             }
@@ -105,7 +125,7 @@ namespace _100to1
 
         private void notFullScreenRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            if (notFullScreenRadioButton.Checked)
+            if (secondTeamRadioButton.Checked)
             {
                 //vf.FormBorderStyle = FormBorderStyle.FixedSingle;
             }
@@ -165,7 +185,7 @@ namespace _100to1
 
         }
 
-        private void confirmBtn_Click(object sender, EventArgs e)
+        private void nextRoundBtn_Click(object sender, EventArgs e)
         {
             teamOnePoints += allPoints;
         }
@@ -200,6 +220,8 @@ namespace _100to1
                 ((TextBox)answersScoreAdmin[i]).Text = Base.score[i][id].ToString();
 
             }
+            updateAnswers();
+            updateScores();
         }
     }
 }

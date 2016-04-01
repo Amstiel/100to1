@@ -60,9 +60,8 @@
             this.secondTeamMistakesLabel = new System.Windows.Forms.Label();
             this.questionNameComboBox = new System.Windows.Forms.ComboBox();
             this.questionNameLabel = new System.Windows.Forms.Label();
-            this.fullScreenRadioButton = new System.Windows.Forms.RadioButton();
-            this.notFullScreenRadioButton = new System.Windows.Forms.RadioButton();
-            this.fullscreenOrNotLabel = new System.Windows.Forms.Label();
+            this.firstTeamRadioButton = new System.Windows.Forms.RadioButton();
+            this.secondTeamRadioButton = new System.Windows.Forms.RadioButton();
             this.allPointsTextBox = new System.Windows.Forms.TextBox();
             this.allPointsLabel = new System.Windows.Forms.Label();
             this.answer1PointsTextBox = new System.Windows.Forms.TextBox();
@@ -299,7 +298,7 @@
             this.confirmBtn.TabIndex = 20;
             this.confirmBtn.Text = "Следующий раунд";
             this.confirmBtn.UseVisualStyleBackColor = true;
-            this.confirmBtn.Click += new System.EventHandler(this.confirmBtn_Click);
+            this.confirmBtn.Click += new System.EventHandler(this.nextRoundBtn_Click);
             // 
             // firstTeamMistakeOne
             // 
@@ -411,39 +410,30 @@
             this.questionNameLabel.TabIndex = 30;
             this.questionNameLabel.Text = "Текущий вопрос";
             // 
-            // fullScreenRadioButton
+            // firstTeamRadioButton
             // 
-            this.fullScreenRadioButton.AutoSize = true;
-            this.fullScreenRadioButton.Location = new System.Drawing.Point(778, 496);
-            this.fullScreenRadioButton.Name = "fullScreenRadioButton";
-            this.fullScreenRadioButton.Size = new System.Drawing.Size(98, 17);
-            this.fullScreenRadioButton.TabIndex = 31;
-            this.fullScreenRadioButton.TabStop = true;
-            this.fullScreenRadioButton.Text = "Полный экран";
-            this.fullScreenRadioButton.UseVisualStyleBackColor = true;
-            this.fullScreenRadioButton.CheckedChanged += new System.EventHandler(this.fullScreenRadioButton_CheckedChanged);
+            this.firstTeamRadioButton.AutoSize = true;
+            this.firstTeamRadioButton.Location = new System.Drawing.Point(80, 519);
+            this.firstTeamRadioButton.Name = "firstTeamRadioButton";
+            this.firstTeamRadioButton.Size = new System.Drawing.Size(132, 17);
+            this.firstTeamRadioButton.TabIndex = 31;
+            this.firstTeamRadioButton.TabStop = true;
+            this.firstTeamRadioButton.Text = "Ход первой команды";
+            this.firstTeamRadioButton.UseVisualStyleBackColor = true;
+            this.firstTeamRadioButton.CheckedChanged += new System.EventHandler(this.fullScreenRadioButton_CheckedChanged);
             // 
-            // notFullScreenRadioButton
+            // secondTeamRadioButton
             // 
-            this.notFullScreenRadioButton.AutoSize = true;
-            this.notFullScreenRadioButton.Checked = true;
-            this.notFullScreenRadioButton.Location = new System.Drawing.Point(778, 519);
-            this.notFullScreenRadioButton.Name = "notFullScreenRadioButton";
-            this.notFullScreenRadioButton.Size = new System.Drawing.Size(108, 17);
-            this.notFullScreenRadioButton.TabIndex = 32;
-            this.notFullScreenRadioButton.TabStop = true;
-            this.notFullScreenRadioButton.Text = "Оконный режим";
-            this.notFullScreenRadioButton.UseVisualStyleBackColor = true;
-            this.notFullScreenRadioButton.CheckedChanged += new System.EventHandler(this.notFullScreenRadioButton_CheckedChanged);
-            // 
-            // fullscreenOrNotLabel
-            // 
-            this.fullscreenOrNotLabel.AutoSize = true;
-            this.fullscreenOrNotLabel.Location = new System.Drawing.Point(775, 480);
-            this.fullscreenOrNotLabel.Name = "fullscreenOrNotLabel";
-            this.fullscreenOrNotLabel.Size = new System.Drawing.Size(81, 13);
-            this.fullscreenOrNotLabel.TabIndex = 33;
-            this.fullscreenOrNotLabel.Text = "Вид окна игры";
+            this.secondTeamRadioButton.AutoSize = true;
+            this.secondTeamRadioButton.Checked = true;
+            this.secondTeamRadioButton.Location = new System.Drawing.Point(778, 519);
+            this.secondTeamRadioButton.Name = "secondTeamRadioButton";
+            this.secondTeamRadioButton.Size = new System.Drawing.Size(131, 17);
+            this.secondTeamRadioButton.TabIndex = 32;
+            this.secondTeamRadioButton.TabStop = true;
+            this.secondTeamRadioButton.Text = "Ход второй команды";
+            this.secondTeamRadioButton.UseVisualStyleBackColor = true;
+            this.secondTeamRadioButton.CheckedChanged += new System.EventHandler(this.notFullScreenRadioButton_CheckedChanged);
             // 
             // allPointsTextBox
             // 
@@ -453,6 +443,8 @@
             this.allPointsTextBox.ReadOnly = true;
             this.allPointsTextBox.Size = new System.Drawing.Size(68, 38);
             this.allPointsTextBox.TabIndex = 34;
+            this.allPointsTextBox.Text = "0";
+            this.allPointsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.allPointsTextBox.TextChanged += new System.EventHandler(this.allPointsTextBox_TextChanged);
             this.allPointsTextBox.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
             this.allPointsTextBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
@@ -636,6 +628,10 @@
             this.roundNumberTB.ReadOnly = true;
             this.roundNumberTB.Size = new System.Drawing.Size(40, 38);
             this.roundNumberTB.TabIndex = 109;
+            this.roundNumberTB.Text = "1";
+            this.roundNumberTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.roundNumberTB.DoubleClick += new System.EventHandler(this.textBox_DoubleClick);
+            this.roundNumberTB.KeyUp += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyUp);
             // 
             // questionNumberTB
             // 
@@ -670,9 +666,8 @@
             this.Controls.Add(this.answer1PointsTextBox);
             this.Controls.Add(this.allPointsLabel);
             this.Controls.Add(this.allPointsTextBox);
-            this.Controls.Add(this.fullscreenOrNotLabel);
-            this.Controls.Add(this.notFullScreenRadioButton);
-            this.Controls.Add(this.fullScreenRadioButton);
+            this.Controls.Add(this.secondTeamRadioButton);
+            this.Controls.Add(this.firstTeamRadioButton);
             this.Controls.Add(this.questionNameLabel);
             this.Controls.Add(this.questionNameComboBox);
             this.Controls.Add(this.secondTeamMistakesLabel);
@@ -745,9 +740,8 @@
         private System.Windows.Forms.Label secondTeamMistakesLabel;
         private System.Windows.Forms.ComboBox questionNameComboBox;
         private System.Windows.Forms.Label questionNameLabel;
-        private System.Windows.Forms.RadioButton fullScreenRadioButton;
-        private System.Windows.Forms.RadioButton notFullScreenRadioButton;
-        private System.Windows.Forms.Label fullscreenOrNotLabel;
+        private System.Windows.Forms.RadioButton firstTeamRadioButton;
+        private System.Windows.Forms.RadioButton secondTeamRadioButton;
         private System.Windows.Forms.TextBox allPointsTextBox;
         private System.Windows.Forms.Label allPointsLabel;
         private System.Windows.Forms.TextBox answer1PointsTextBox;

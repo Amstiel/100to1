@@ -16,6 +16,7 @@ namespace _100to1
         public ArrayList teamsMistakes = new ArrayList(); //Костыль, но ничего лучше я не придумал)
         public ArrayList AnswersPB = new ArrayList();
         public ArrayList AnswersLB = new ArrayList();
+        public ArrayList AnswersScores = new ArrayList();
         public Boolean mouseDown;
         int x, y;
 
@@ -54,6 +55,14 @@ namespace _100to1
             AnswersLB.Add(answerFour);
             AnswersLB.Add(answerFive);
             AnswersLB.Add(answerSix);
+
+            AnswersScores.Add(pointsOne);
+            AnswersScores.Add(pointsTwo);
+            AnswersScores.Add(pointsThree);
+            AnswersScores.Add(pointsFour);
+            AnswersScores.Add(pointsFive);
+            AnswersScores.Add(pointsSix);
+
         }
 
         private void ViewForm_Load(object sender, EventArgs e)
@@ -137,6 +146,11 @@ namespace _100to1
                 x = Cursor.Position.X;
                 y = Cursor.Position.Y;
             }
+        }
+
+        private void roundNumberLabel_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void ViewForm_MouseUp(object sender, MouseEventArgs e)
