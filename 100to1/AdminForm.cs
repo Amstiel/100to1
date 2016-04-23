@@ -277,6 +277,7 @@ namespace _100to1
                 panel1.BackColor = Color.Silver;
                 secondTeamRadioButton.Checked = true;
                 firstTeamRadioButton.Checked = true;
+                Cursor.Position = new Point(Convert.ToInt32(0), Convert.ToInt32(0));
                 SoundPlayer a = new SoundPlayer(@"..\..\audio\button.wav");
                 a.Play();
                 return;
@@ -287,6 +288,7 @@ namespace _100to1
                 panel1.BackColor = Color.Silver;
                 firstTeamRadioButton.Checked = true;
                 secondTeamRadioButton.Checked = true;
+                Cursor.Position = new Point(Convert.ToInt32(0), Convert.ToInt32(0));
                 SoundPlayer a = new SoundPlayer(@"..\..\audio\button.wav");
                 a.Play();
                 return;
@@ -297,6 +299,7 @@ namespace _100to1
                 panel1.BackColor = Color.Silver;
                 firstTeamRadioButton.Checked = true;
                 secondTeamRadioButton.Checked = true;
+                Cursor.Position = new Point(Convert.ToInt32(0), Convert.ToInt32(0));
                 SoundPlayer a = new SoundPlayer(@"..\..\audio\wrong.wav");
                 a.Play();
                 return;
@@ -307,6 +310,7 @@ namespace _100to1
                 panel1.BackColor = Color.Silver;
                 secondTeamRadioButton.Checked = true;
                 firstTeamRadioButton.Checked = true;
+                Cursor.Position = new Point(Convert.ToInt32(0), Convert.ToInt32(0));
                 SoundPlayer a = new SoundPlayer(@"..\..\audio\wrong.wav");
                 a.Play();
                 return;
