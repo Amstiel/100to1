@@ -17,6 +17,7 @@ namespace _100to1
         public ArrayList AnswersPB = new ArrayList();
         public ArrayList AnswersLB = new ArrayList();
         public ArrayList AnswersScores = new ArrayList();
+        public PictureBox team1Lampa, team2Lampa;
         public Boolean mouseDown;
         int x, y;
 
@@ -25,7 +26,9 @@ namespace _100to1
             InitializeComponent();
             mistakesInit();
             answersInit();
-            
+            team1Lampa = lampa1;
+            team2Lampa = lampa2;
+
         }
 
         public void mistakesInit()

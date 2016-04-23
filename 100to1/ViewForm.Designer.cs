@@ -66,6 +66,8 @@
             this.pointsFive = new System.Windows.Forms.Label();
             this.answerSix = new System.Windows.Forms.Label();
             this.pointsSix = new System.Windows.Forms.Label();
+            this.lampa2 = new System.Windows.Forms.PictureBox();
+            this.lampa1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.logoPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamOneMistakeOne)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.teamOneMistakeTwo)).BeginInit();
@@ -85,6 +87,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.answerThreePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.answerTwoPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.answerOnePB)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lampa2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lampa1)).BeginInit();
             this.SuspendLayout();
             // 
             // logoPicture
@@ -106,12 +110,13 @@
             this.teamOneNameLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.teamOneNameLabel.AutoSize = true;
             this.teamOneNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
-            this.teamOneNameLabel.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teamOneNameLabel.Font = new System.Drawing.Font("Panton ExtraBold", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamOneNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.teamOneNameLabel.Location = new System.Drawing.Point(116, 73);
+            this.teamOneNameLabel.Location = new System.Drawing.Point(91, 75);
             this.teamOneNameLabel.Name = "teamOneNameLabel";
-            this.teamOneNameLabel.Size = new System.Drawing.Size(133, 41);
+            this.teamOneNameLabel.Size = new System.Drawing.Size(131, 40);
             this.teamOneNameLabel.TabIndex = 1;
             this.teamOneNameLabel.Text = "матфак";
             // 
@@ -120,7 +125,7 @@
             this.teamOnePointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.teamOnePointsLabel.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamOnePointsLabel.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamOnePointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.teamOnePointsLabel.Image = global::_100to1.Properties.Resources.ScoresBackground;
             this.teamOnePointsLabel.Location = new System.Drawing.Point(92, 114);
@@ -135,7 +140,7 @@
             this.teamTwoPointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.teamTwoPointsLabel.Font = new System.Drawing.Font("Panton Black", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamTwoPointsLabel.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamTwoPointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.teamTwoPointsLabel.Image = global::_100to1.Properties.Resources.ScoresBackground;
             this.teamTwoPointsLabel.Location = new System.Drawing.Point(1018, 114);
@@ -152,11 +157,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoNameLabel.AutoSize = true;
             this.teamTwoNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
-            this.teamTwoNameLabel.Font = new System.Drawing.Font("Panton Black", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teamTwoNameLabel.Font = new System.Drawing.Font("Panton ExtraBold", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.teamTwoNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.teamTwoNameLabel.Location = new System.Drawing.Point(1041, 73);
+            this.teamTwoNameLabel.Location = new System.Drawing.Point(1017, 76);
             this.teamTwoNameLabel.Name = "teamTwoNameLabel";
-            this.teamTwoNameLabel.Size = new System.Drawing.Size(133, 41);
+            this.teamTwoNameLabel.Size = new System.Drawing.Size(131, 40);
             this.teamTwoNameLabel.TabIndex = 3;
             this.teamTwoNameLabel.Text = "матфак";
             this.teamTwoNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -441,7 +446,7 @@
             // 
             this.allPointsLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.allPointsLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.allPointsLabel.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold);
+            this.allPointsLabel.Font = new System.Drawing.Font("Panton", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.allPointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.allPointsLabel.Location = new System.Drawing.Point(546, 127);
             this.allPointsLabel.Name = "allPointsLabel";
@@ -454,7 +459,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(49)))));
-            this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.label5.Location = new System.Drawing.Point(579, 225);
             this.label5.Name = "label5";
@@ -467,7 +472,7 @@
             // 
             this.roundNumberLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.roundNumberLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
-            this.roundNumberLabel.Font = new System.Drawing.Font("Panton ExtraBold", 20F, System.Drawing.FontStyle.Bold);
+            this.roundNumberLabel.Font = new System.Drawing.Font("Panton", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.roundNumberLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.roundNumberLabel.Location = new System.Drawing.Point(608, 250);
             this.roundNumberLabel.Name = "roundNumberLabel";
@@ -483,7 +488,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.answerOne.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerOne.Location = new System.Drawing.Point(371, 336);
             this.answerOne.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -499,7 +504,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsOne.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.pointsOne.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.pointsOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsOne.Location = new System.Drawing.Point(843, 336);
             this.pointsOne.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -515,7 +520,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.answerTwo.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerTwo.Location = new System.Drawing.Point(371, 445);
             this.answerTwo.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -531,7 +536,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsTwo.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.pointsTwo.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.pointsTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsTwo.Location = new System.Drawing.Point(842, 445);
             this.pointsTwo.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -547,7 +552,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.answerThree.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerThree.Location = new System.Drawing.Point(371, 554);
             this.answerThree.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -563,7 +568,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsThree.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.pointsThree.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.pointsThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsThree.Location = new System.Drawing.Point(842, 554);
             this.pointsThree.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -579,7 +584,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.answerFour.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerFour.Location = new System.Drawing.Point(371, 663);
             this.answerFour.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -595,7 +600,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsFour.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.pointsFour.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.pointsFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsFour.Location = new System.Drawing.Point(843, 663);
             this.pointsFour.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -611,7 +616,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.answerFive.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerFive.Location = new System.Drawing.Point(371, 770);
             this.answerFive.Margin = new System.Windows.Forms.Padding(3, 20, 3, 0);
@@ -627,7 +632,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsFive.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.pointsFive.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.pointsFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsFive.Location = new System.Drawing.Point(842, 770);
             this.pointsFive.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -643,7 +648,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.answerSix.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.answerSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerSix.Location = new System.Drawing.Point(371, 879);
             this.answerSix.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -659,7 +664,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsSix.Font = new System.Drawing.Font("Panton Black", 30F, System.Drawing.FontStyle.Bold);
+            this.pointsSix.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.pointsSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsSix.Location = new System.Drawing.Point(842, 879);
             this.pointsSix.Margin = new System.Windows.Forms.Padding(3, 20, 3, 0);
@@ -669,6 +674,28 @@
             this.pointsSix.Text = "10";
             this.pointsSix.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lampa2
+            // 
+            this.lampa2.BackColor = System.Drawing.Color.Transparent;
+            this.lampa2.BackgroundImage = global::_100to1.Properties.Resources.w256h25613715677480015LightBulb;
+            this.lampa2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lampa2.Location = new System.Drawing.Point(1024, 285);
+            this.lampa2.Name = "lampa2";
+            this.lampa2.Size = new System.Drawing.Size(171, 163);
+            this.lampa2.TabIndex = 33;
+            this.lampa2.TabStop = false;
+            // 
+            // lampa1
+            // 
+            this.lampa1.BackColor = System.Drawing.Color.Transparent;
+            this.lampa1.BackgroundImage = global::_100to1.Properties.Resources.w256h25613715677480015LightBulb;
+            this.lampa1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lampa1.Location = new System.Drawing.Point(98, 285);
+            this.lampa1.Name = "lampa1";
+            this.lampa1.Size = new System.Drawing.Size(171, 163);
+            this.lampa1.TabIndex = 34;
+            this.lampa1.TabStop = false;
+            // 
             // ViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -676,6 +703,8 @@
             this.BackgroundImage = global::_100to1.Properties.Resources.viewBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1280, 1024);
+            this.Controls.Add(this.lampa1);
+            this.Controls.Add(this.lampa2);
             this.Controls.Add(this.roundNumberLabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.allPointsLabel);
@@ -744,6 +773,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.answerThreePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.answerTwoPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.answerOnePB)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lampa2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lampa1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -789,5 +820,7 @@
         public System.Windows.Forms.Label pointsFive;
         public System.Windows.Forms.Label answerSix;
         public System.Windows.Forms.Label pointsSix;
+        private System.Windows.Forms.PictureBox lampa2;
+        private System.Windows.Forms.PictureBox lampa1;
     }
 }

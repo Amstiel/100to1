@@ -14,7 +14,9 @@ namespace _100to1
 {
     public partial class AdminForm : Form
     {
-        public string basePath = @"C:\Works\test.txt"; // Пусть к базе
+        public bool pressTarakaniii;
+        public int xMouse, yMouse;
+        public string basePath = @"test.txt"; // Пусть к базе
         public ViewForm vf;
         public ArrayList answersAdmin = new ArrayList();
         public ArrayList answersScoreAdmin = new ArrayList();
@@ -33,6 +35,8 @@ namespace _100to1
             comboBoxInit();
             questionInit(0);
             setRoundScores(0);
+            vf.team1Lampa.Visible = false;
+            vf.team2Lampa.Visible = false;
         }
 
         // Заполнение комбобокса
@@ -142,6 +146,8 @@ namespace _100to1
             if (firstTeamRadioButton.Checked)
             {
                 firstTeamTurn = true;
+                vf.team2Lampa.Visible = false;
+                vf.team1Lampa.Visible = true;
                 secondTeamTurn = false;
             }
         }
@@ -150,6 +156,8 @@ namespace _100to1
         {
             if (secondTeamRadioButton.Checked)
             {
+                vf.team2Lampa.Visible = true;
+                vf.team1Lampa.Visible = false;
                 firstTeamTurn = false;
                 secondTeamTurn = true;
             }
@@ -218,17 +226,108 @@ namespace _100to1
             if (firstTeamTurn)
             {
                 setFirstTeamScores(allPoints + firstTeamScores);
-                setSecondTeamScores(0);
+                setSecondTeamScores(secondTeamScores);
             }
             else
             {
-                setSecondTeamScores(allPoints + firstTeamScores);
-                setFirstTeamScores(0);
+                setSecondTeamScores(allPoints + secondTeamScores);
+                setFirstTeamScores(firstTeamScores);
             }
+
+            answer1CheckBox.Checked = true;
+            answer2CheckBox.Checked = true;
+            answer3CheckBox.Checked = true;
+            answer4CheckBox.Checked = true;
+            answer5CheckBox.Checked = true;
+            answer6CheckBox.Checked = true;
+
+            firstTeamMistakeOne.Checked = false;
+            firstTeamMistakeTwo.Checked = false;
+            firstTeamMistakeThree.Checked = false;
+
+            secondTeamMistakeOne.Checked = false;
+            secondTeamMistakeTwo.Checked = false;
+            secondTeamMistakeThree.Checked = false;
+
+            vf.team2Lampa.Visible = false;
+            vf.team1Lampa.Visible = false;
+
             setRoundScores(0);
             setRound(++currentRound);
         }
 
+        private void panel1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left){
+                panel1.BackColor = Color.Red;
+                pressTarakaniii = true;
+               // xMouse = Cursor.Position.X;
+               // yMouse = Cursor.Position.Y;
+                return;
+            };
+            if (e.Button == MouseButtons.Right && pressTarakaniii)
+            {
+                pressTarakaniii = false;
+                panel1.BackColor = Color.Silver;
+                return;
+            };
+            if (e.Button == MouseButtons.XButton1 && pressTarakaniii)
+            {
+                pressTarakaniii = false;
+                panel1.BackColor = Color.Silver;
+                secondTeamRadioButton.Checked = true;
+                firstTeamRadioButton.Checked = true;
+                SoundPlayer a = new SoundPlayer(@"..\..\audio\button.wav");
+                a.Play();
+                return;
+            };
+            if (e.Button == MouseButtons.XButton2 && pressTarakaniii)
+            {
+                pressTarakaniii = false;
+                panel1.BackColor = Color.Silver;
+                firstTeamRadioButton.Checked = true;
+                secondTeamRadioButton.Checked = true;
+                SoundPlayer a = new SoundPlayer(@"..\..\audio\button.wav");
+                a.Play();
+                return;
+            };
+            if (e.Button == MouseButtons.XButton1 && !pressTarakaniii)
+            {
+                pressTarakaniii = false;
+                panel1.BackColor = Color.Silver;
+                firstTeamRadioButton.Checked = true;
+                secondTeamRadioButton.Checked = true;
+                SoundPlayer a = new SoundPlayer(@"..\..\audio\wrong.wav");
+                a.Play();
+                return;
+            };
+            if (e.Button == MouseButtons.XButton2 && !pressTarakaniii)
+            {
+                pressTarakaniii = false;
+                panel1.BackColor = Color.Silver;
+                secondTeamRadioButton.Checked = true;
+                firstTeamRadioButton.Checked = true;
+                SoundPlayer a = new SoundPlayer(@"..\..\audio\wrong.wav");
+                a.Play();
+                return;
+            };
+            return;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            vf.team2Lampa.Visible = false;
+            vf.team1Lampa.Visible = false;
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (pressTarakaniii)
+            {
+                //Cursor.Position = new Point(Convert.ToInt32(xMouse), Convert.ToInt32(yMouse));
+            }
+        }
+        
         //Инициализация и добавление элементов в массив, для более удобной работы с ними
 
         public void answersInit()
