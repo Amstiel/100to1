@@ -112,11 +112,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamOneNameLabel.AutoSize = true;
             this.teamOneNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
-            this.teamOneNameLabel.Font = new System.Drawing.Font("Panton ExtraBold", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamOneNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamOneNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.teamOneNameLabel.Location = new System.Drawing.Point(91, 75);
             this.teamOneNameLabel.Name = "teamOneNameLabel";
-            this.teamOneNameLabel.Size = new System.Drawing.Size(131, 40);
+            this.teamOneNameLabel.Size = new System.Drawing.Size(142, 38);
             this.teamOneNameLabel.TabIndex = 1;
             this.teamOneNameLabel.Text = "матфак";
             // 
@@ -125,7 +125,7 @@
             this.teamOnePointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.teamOnePointsLabel.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamOnePointsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamOnePointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.teamOnePointsLabel.Image = global::_100to1.Properties.Resources.ScoresBackground;
             this.teamOnePointsLabel.Location = new System.Drawing.Point(92, 114);
@@ -140,7 +140,7 @@
             this.teamTwoPointsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.teamTwoPointsLabel.Font = new System.Drawing.Font("Panton ExtraBold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.teamTwoPointsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamTwoPointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.teamTwoPointsLabel.Image = global::_100to1.Properties.Resources.ScoresBackground;
             this.teamTwoPointsLabel.Location = new System.Drawing.Point(1018, 114);
@@ -157,11 +157,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.teamTwoNameLabel.AutoSize = true;
             this.teamTwoNameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
-            this.teamTwoNameLabel.Font = new System.Drawing.Font("Panton ExtraBold", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.teamTwoNameLabel.Font = new System.Drawing.Font("Trebuchet MS", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.teamTwoNameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
-            this.teamTwoNameLabel.Location = new System.Drawing.Point(1017, 76);
+            this.teamTwoNameLabel.Location = new System.Drawing.Point(1017, 71);
             this.teamTwoNameLabel.Name = "teamTwoNameLabel";
-            this.teamTwoNameLabel.Size = new System.Drawing.Size(131, 40);
+            this.teamTwoNameLabel.Size = new System.Drawing.Size(138, 42);
             this.teamTwoNameLabel.TabIndex = 3;
             this.teamTwoNameLabel.Text = "матфак";
             this.teamTwoNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -446,7 +446,7 @@
             // 
             this.allPointsLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.allPointsLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.allPointsLabel.Font = new System.Drawing.Font("Panton", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.allPointsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.allPointsLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.allPointsLabel.Location = new System.Drawing.Point(546, 127);
             this.allPointsLabel.Name = "allPointsLabel";
@@ -459,7 +459,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(61)))), ((int)(((byte)(49)))));
-            this.label5.Font = new System.Drawing.Font("Panton ExtraBold", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Trebuchet MS", 15F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.label5.Location = new System.Drawing.Point(579, 225);
             this.label5.Name = "label5";
@@ -472,7 +472,7 @@
             // 
             this.roundNumberLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.roundNumberLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(47)))), ((int)(((byte)(37)))));
-            this.roundNumberLabel.Font = new System.Drawing.Font("Panton", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.roundNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.roundNumberLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.roundNumberLabel.Location = new System.Drawing.Point(608, 250);
             this.roundNumberLabel.Name = "roundNumberLabel";
@@ -488,7 +488,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerOne.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answerOne.Font = new System.Drawing.Font("Trebuchet MS", 30F, System.Drawing.FontStyle.Bold);
             this.answerOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerOne.Location = new System.Drawing.Point(371, 336);
             this.answerOne.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -504,14 +504,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsOne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsOne.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pointsOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.pointsOne.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsOne.Location = new System.Drawing.Point(843, 336);
             this.pointsOne.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsOne.Name = "pointsOne";
             this.pointsOne.Size = new System.Drawing.Size(86, 69);
             this.pointsOne.TabIndex = 32;
-            this.pointsOne.Text = "10";
+            this.pointsOne.Text = "102";
             this.pointsOne.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answerTwo
@@ -520,7 +520,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerTwo.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answerTwo.Font = new System.Drawing.Font("Trebuchet MS", 30F, System.Drawing.FontStyle.Bold);
             this.answerTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerTwo.Location = new System.Drawing.Point(371, 445);
             this.answerTwo.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -536,14 +536,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsTwo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsTwo.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pointsTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.pointsTwo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsTwo.Location = new System.Drawing.Point(842, 445);
             this.pointsTwo.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsTwo.Name = "pointsTwo";
             this.pointsTwo.Size = new System.Drawing.Size(86, 69);
             this.pointsTwo.TabIndex = 32;
-            this.pointsTwo.Text = "10";
+            this.pointsTwo.Text = "102";
             this.pointsTwo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answerThree
@@ -552,7 +552,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerThree.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answerThree.Font = new System.Drawing.Font("Trebuchet MS", 30F, System.Drawing.FontStyle.Bold);
             this.answerThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerThree.Location = new System.Drawing.Point(371, 554);
             this.answerThree.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -568,14 +568,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsThree.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsThree.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pointsThree.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.pointsThree.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsThree.Location = new System.Drawing.Point(842, 554);
             this.pointsThree.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsThree.Name = "pointsThree";
             this.pointsThree.Size = new System.Drawing.Size(86, 69);
             this.pointsThree.TabIndex = 32;
-            this.pointsThree.Text = "10";
+            this.pointsThree.Text = "102";
             this.pointsThree.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answerFour
@@ -584,7 +584,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerFour.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answerFour.Font = new System.Drawing.Font("Trebuchet MS", 30F, System.Drawing.FontStyle.Bold);
             this.answerFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerFour.Location = new System.Drawing.Point(371, 663);
             this.answerFour.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -600,14 +600,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsFour.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsFour.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pointsFour.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.pointsFour.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsFour.Location = new System.Drawing.Point(843, 663);
             this.pointsFour.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsFour.Name = "pointsFour";
             this.pointsFour.Size = new System.Drawing.Size(86, 69);
             this.pointsFour.TabIndex = 32;
-            this.pointsFour.Text = "10";
+            this.pointsFour.Text = "102";
             this.pointsFour.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answerFive
@@ -616,7 +616,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerFive.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answerFive.Font = new System.Drawing.Font("Trebuchet MS", 30F, System.Drawing.FontStyle.Bold);
             this.answerFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerFive.Location = new System.Drawing.Point(371, 770);
             this.answerFive.Margin = new System.Windows.Forms.Padding(3, 20, 3, 0);
@@ -632,14 +632,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsFive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsFive.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pointsFive.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.pointsFive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsFive.Location = new System.Drawing.Point(842, 770);
             this.pointsFive.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
             this.pointsFive.Name = "pointsFive";
             this.pointsFive.Size = new System.Drawing.Size(86, 69);
             this.pointsFive.TabIndex = 32;
-            this.pointsFive.Text = "10";
+            this.pointsFive.Text = "102";
             this.pointsFive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // answerSix
@@ -648,7 +648,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.answerSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.answerSix.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answerSix.Font = new System.Drawing.Font("Trebuchet MS", 30F, System.Drawing.FontStyle.Bold);
             this.answerSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.answerSix.Location = new System.Drawing.Point(371, 879);
             this.answerSix.Margin = new System.Windows.Forms.Padding(3, 40, 3, 0);
@@ -664,14 +664,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pointsSix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(58)))), ((int)(((byte)(40)))));
-            this.pointsSix.Font = new System.Drawing.Font("Panton ExtraBold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.pointsSix.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold);
             this.pointsSix.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(224)))), ((int)(((byte)(36)))));
             this.pointsSix.Location = new System.Drawing.Point(842, 879);
             this.pointsSix.Margin = new System.Windows.Forms.Padding(3, 20, 3, 0);
             this.pointsSix.Name = "pointsSix";
             this.pointsSix.Size = new System.Drawing.Size(86, 69);
             this.pointsSix.TabIndex = 32;
-            this.pointsSix.Text = "10";
+            this.pointsSix.Text = "102";
             this.pointsSix.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lampa2
@@ -725,24 +725,24 @@
             this.Controls.Add(this.teamOneMistakeOne);
             this.Controls.Add(this.teamOneMistakeTwo);
             this.Controls.Add(this.teamOneMistakeThree);
-            this.Controls.Add(this.answerOnePB);
             this.Controls.Add(this.answerOne);
             this.Controls.Add(this.pointsOne);
-            this.Controls.Add(this.answerTwoPB);
             this.Controls.Add(this.answerTwo);
             this.Controls.Add(this.pointsTwo);
-            this.Controls.Add(this.answerThreePB);
             this.Controls.Add(this.answerThree);
             this.Controls.Add(this.pointsThree);
-            this.Controls.Add(this.answerFourPB);
             this.Controls.Add(this.answerFour);
             this.Controls.Add(this.pointsFour);
-            this.Controls.Add(this.answerFivePB);
             this.Controls.Add(this.answerFive);
             this.Controls.Add(this.pointsFive);
-            this.Controls.Add(this.answerSixPB);
             this.Controls.Add(this.answerSix);
             this.Controls.Add(this.pointsSix);
+            this.Controls.Add(this.answerOnePB);
+            this.Controls.Add(this.answerTwoPB);
+            this.Controls.Add(this.answerThreePB);
+            this.Controls.Add(this.answerFourPB);
+            this.Controls.Add(this.answerFivePB);
+            this.Controls.Add(this.answerSixPB);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximumSize = new System.Drawing.Size(1280, 1024);
